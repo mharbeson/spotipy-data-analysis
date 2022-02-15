@@ -70,7 +70,7 @@ def getTrackFeatures(id):
 def getTrackId():
     id = []
     recently_played = spotifyObject.current_user_recently_played(limit=1)
-    for key, value in recently_played['items'][0]['track']['id'].items():
+    for key, value in recently_played['items'][0]['track'].items():
         # print(value)
         # track = key['track']
         # id.append(key['id'])
