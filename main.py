@@ -1,10 +1,9 @@
 import os
 import sys
-import json
 import spotipy
 import webbrowser
-import spotipy.util as util
 import pandas as pd
+import spotipy.util as util
 from json.decoder import JSONDecodeError
 from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
