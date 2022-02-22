@@ -59,9 +59,9 @@ def getTrackId():
 def getTrackFeatures(id):
     track_info = spotifyObject.track(id)
     features = spotifyObject.audio_features(id)
-    print(track_info)
-    print('------------------------------------------')
-    print(features)
+    # print(track_info)
+    # print('-' * 150)
+    # print(features)
 
     name = track_info['name']
     album = track_info['album']['name']
