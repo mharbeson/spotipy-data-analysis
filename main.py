@@ -80,10 +80,8 @@ def get_saved_songs():
     songs = {}
     offset = 0
     while offset < 10:
-        temp = {}
         temp = (spotifyObject.current_user_saved_tracks(limit=1, offset = offset))
-        print(temp)
-        songs.update(temp)
+        songs.append(temp)
         offset += 1
         print(offset)
     # return songs
