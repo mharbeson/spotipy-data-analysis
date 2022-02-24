@@ -47,12 +47,51 @@ spotifyObject = spotipy.Spotify(auth=token)
 # with open("data/song.json", "w") as f:
 #     json.dump(recently_played,f)
 
+# def getTrackId():
+#     id = []
+#     recently_played = spotifyObject.current_user_recently_played(limit=50)
+#     for item in recently_played['items']:
+#         track = item['track']
+#         id.append(track['id'])
+#     return id
+
+# def getTrackId(saved_songs):
+#     id = []
+#     # saved_songs = spotifyObject.current_user_saved_tracks(limit=20)
+#     # print(saved_songs)
+#     for item in saved_songs['items']:
+#         track = item['track']
+#         id.append(track['id'])
+#     return id
+
 def getTrackId():
     id = []
-    recently_played = spotifyObject.current_user_recently_played(limit=50)
-    for item in recently_played['items']:
+    saved_songs = spotifyObject.current_user_saved_tracks(limit=1)
+    print(saved_songs)
+    for item in saved_songs['items']:
         track = item['track']
         id.append(track['id'])
+    return id
+
+# print(getTrackId())
+
+def get_saved_songs():
+    id = []
+    songs = {}
+    offset = 0
+    while offset < 10:
+        temp = {}
+        temp = (spotifyObject.current_user_saved_tracks(limit=1, offset = offset))
+        print(temp)
+        songs.update(temp)
+        offset += 1
+        print(offset)
+    # return songs
+    # print(songs)
+    for item in songs['items']:
+        track = item['track']
+        id.append(track['id'])
+    print(id)
     return id
 
 # Retrieve track identifiers from song
@@ -92,26 +131,23 @@ def getTrackFeatures(id):
     track_features = [name, album, artist, release_date, length, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo]
     return track_features
 
+# tracks = []
+# recent_songs = getTrackId()
+# for item in recent_songs:
+#     track = getTrackFeatures(item)
+#     tracks.append(track)
+
+# df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
+# df.to_csv('data/spotipy.csv', sep = ',')
+
+
 tracks = []
-recent_songs = getTrackId()
+recent_songs = get_saved_songs()
 for item in recent_songs:
     track = getTrackFeatures(item)
     tracks.append(track)
 
 df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
 df.to_csv('data/spotipy.csv', sep = ',')
-
-# with open("data/characteristics.json", "a") as f:
-#     for item in recently_played[]
-#     json.dump(recently_played,f)
-
-
-# Test function
-# test = '3jK9MiCrA42lLAdMGUZpwa'
-# print(getTrackFeatures(test))
-
-# print(recently_played)
-
-# print(getTrackId())
 
 # Use pandas or numpy to graph
