@@ -53,17 +53,19 @@ def getCurrentUserSavedSongs():
     savedSongs = []
     # increment = 1
     # Max increment spotipy supports
-    increment = 20
+    increment = 1
     offset = 0
-    # totalSongs = getUserSavedSongsTotal()
-    totalSongs = 20
+    totalSongs = getUserSavedSongsTotal()
+    # totalSongs = 20
     while offset < totalSongs:
         temp = spotifyObject.current_user_saved_tracks(limit=increment, offset = offset)
-        print(temp)
-        for item in temp:
-            ids = getTrackId(temp)
-            savedSongs.append(ids)
-            print(ids)
+        # print(temp)
+        # for item in temp:
+        #     ids = getTrackId(temp)
+        #     savedSongs.append(ids)
+        #     print(ids)
+        ids = getTrackId(temp)
+        savedSongs.append(ids)
         offset += increment
         print(f"Pulling track {offset} of {totalSongs}")
     return savedSongs
