@@ -17,7 +17,7 @@ username = '1236194609'
 scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
 
 def get_key_env(key_name):
-    """returns the value of the key - from OS env file -- BEST PRACTICE METHOD """
+    """returns the value of the key - from OS env file"""
     key_value = os.getenv(key_name)
     return key_value
 
@@ -51,9 +51,9 @@ def getUserSavedSongsTotal():
 
 def getCurrentUserSavedSongs():
     savedSongs = []
-    # increment = 1
-    # Max increment spotipy supports
     increment = 1
+    # Max increment spotipy supports
+    # increment = 20
     offset = 0
     totalSongs = getUserSavedSongsTotal()
     # totalSongs = 20
