@@ -20,7 +20,7 @@ This application provides interesting data analysis about a users Spotify listen
 ## Table of Contents
 
 - [Requirements](#Requirements)
-- [Install](#Installation)
+- [Install](#Install)
   - [Linux](#Linux)
   - [Mac](#Mac)
   - [Windows](#Windows)
@@ -34,28 +34,56 @@ This application provides interesting data analysis about a users Spotify listen
 - Python 3.8.10
 - Aquire a Spotify API Client ID and Secret ID from: https://developer.spotify.com/documentation/web-api/quick-start
 
-## Linux
+## Install
+
+### Linux
 
 - Clone the repository: 
 ```
-    git clone https://github.com/mharbeson/spotipy-data-analysis.git
+git clone https://github.com/mharbeson/spotipy-data-analysis.git
 ``` 
-- Run
+
+- Create and activate the virtual environment from the cloned directory:
 ```
-python3 -m venv venv
+python3 -m venv spotipy-data-analysis
+source spotipy-data-analysis/bin/activate
 ```
 
- to create the virtual environment.
+- Install requirements:
+```
+pip install -r requirements.txt
+```
+
+- Add Spotify API Keys to environment file:
+```
+vim /etc/environment
+```
+
+```
+# /etc/environment
+SPOTIPY_CLIENT_ID='56eb326*************************'
+SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
+SPOTIPY_REDIRECT_URI='https://google.com/'
+```
+
+
+
+- Execute main.py passing user name as first requirement. (Example user ID provided):
+```
+python3 main.py 1236194609
+```
+
+
 - 
     - if using Windows PowerShell: `venv\Scripts\Activate.ps1`
     - if using Linux or Mac: `venv/bin/activate`
 - Run `pip install -r requirements.txt` to install the required packages.
 
-## Mac
+### Mac
 
 - 
 
-## Windows
+### Windows
 
 -
 
