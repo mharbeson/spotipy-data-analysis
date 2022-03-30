@@ -7,7 +7,7 @@
 <br>
 </p>
 
-This application provides interesting data analysis about a users Spotify listening habits based on :heart:ed tracks. Data is pulled using the Spotify API, manipulated, and presented to the end user.
+This application provides interesting data analysis about a users Spotify listening habits based on :heart:ed or liked tracks. Data is pulled using the Spotify API, manipulated, and presented to the end user.
 
 <h1 align="center">
 	Showcase
@@ -18,8 +18,6 @@ This application provides interesting data analysis about a users Spotify listen
 
 
 ## Table of Contents
-
----
 
 - [Requirements](#Requirements)
 - [Install](#Installation)
@@ -33,14 +31,10 @@ This application provides interesting data analysis about a users Spotify listen
 
 ## Requirements
 
---- 
-
 - Python 3.8.10
 - Aquire a Spotify API Client ID and Secret ID from: https://developer.spotify.com/documentation/web-api/quick-start/
 
 ## Linux
-
----
 
 - Clone the repository: 
 ```
@@ -54,24 +48,21 @@ This application provides interesting data analysis about a users Spotify listen
 
 ## Mac
 
---- 
-
+- 
 
 ## Windows
 
----
+-
 
 ## Notes
-
----
 
 - 
 - 
 
 ## Project Requirements
 
----
-
+-
+-
 
 
 
