@@ -33,6 +33,11 @@ This application provides interesting data analysis about a users Spotify listen
 
 - Python 3.8.10
 - Aquire a Spotify API Client ID and Secret ID from: https://developer.spotify.com/documentation/web-api/quick-start
+- User Spotify ID
+    - This can be found either on Spotify's website by logging in, or in the hyperlink to a user's profile.
+    <img src=assets/accountoverview.png width="100%">
+    - Bold text below is the location of a user's ID in a hyperlink.
+    - https://open.spotify.com/user/**1236194609**?si=a152edcdd8c34981
 
 ## Install
 
@@ -169,3 +174,6 @@ python3 main.py
 
 - Category 4: Best Practices
     - The program should utilize a virtual environment and document library dependencies in a requirements.txt file.
+
+- Future Stretch Items
+    - Add the ability to compare the listening habits of two users
