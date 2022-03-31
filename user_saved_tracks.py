@@ -2,6 +2,10 @@ import spotipy
 import spotipy.util as util
 from json.decoder import JSONDecodeError
 from spotipy.oauth2 import SpotifyClientCredentials
+from dotenv import load_dotenv
+
+# Load environmental variables from .env file
+load_dotenv(".env")
 
 username = '1236194609'
 scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'

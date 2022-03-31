@@ -9,9 +9,18 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
 
 # Load environmental variables from .env file
-load_dotenv("/etc/environment")
+load_dotenv(".env")
 
 # Get the username from terminal
+
+# try: 
+#     username = sys.argv[1]
+# except:
+#     print('No username arg passed, using static username')
+#     username = '1236194609'
+#     print(username)
+
+
 # username = sys.argv[1]
 username = '1236194609'
 scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
@@ -21,9 +30,11 @@ def get_key_env(key_name):
     key_value = os.getenv(key_name)
     return key_value
 
-# SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
-# SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
-# SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+
+SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
+SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
+SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+
 
 # Erase cache and prompt for user permission
 try:
@@ -55,8 +66,8 @@ def getCurrentUserSavedSongs():
     # Max increment spotipy supports
     # increment = 20
     offset = 0
-    totalSongs = getUserSavedSongsTotal()
-    # totalSongs = 20
+    # totalSongs = getUserSavedSongsTotal()
+    totalSongs = 20
     while offset < totalSongs:
         temp = spotifyObject.current_user_saved_tracks(limit=increment, offset = offset)
         # print(temp)
