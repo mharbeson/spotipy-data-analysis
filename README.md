@@ -51,6 +51,7 @@ source spotipy-data-analysis/bin/activate
 
 - Install requirements:
 ```
+cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
@@ -94,6 +95,7 @@ source spotipy-data-analysis/bin/activate
 
 - Install requirements:
 ```
+cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
@@ -125,6 +127,7 @@ source spotipy-data-analysis/bin/activate
 
 - Install requirements:
 ```
+cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
