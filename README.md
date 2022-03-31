@@ -70,7 +70,7 @@ SPOTIPY_REDIRECT_URI='https://google.com/'
 
 - Execute main.py passing user name as first requirement. If not user ID is provided, it will use my personal ID:
 ```
-python3 main.py 1236194609
+python3 main.py
 ```
 
 
@@ -107,7 +107,7 @@ export SPOTIPY_REDIRECT_URI='https://google.com/'
 
 - Execute main.py passing user name as first requirement. If not user ID is provided, it will use my personal ID:
 ```
-python3 main.py 1236194609
+python3 main.py 
 ```
 
 ### Windows
@@ -138,7 +138,7 @@ SET SPOTIPY_REDIRECT_URI='https://google.com/'
 
 - Execute main.py passing user name as first requirement. If not user ID is provided, it will use my personal ID:
 ```
-python3 main.py 1236194609
+python3 main.py
 ```
 
 ## Notes
