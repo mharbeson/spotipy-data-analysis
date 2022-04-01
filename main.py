@@ -1,5 +1,4 @@
 import os
-# from statistics import correlation
 import sys
 import spotipy
 import spotipy.util as util
@@ -61,10 +60,14 @@ def getCurrentUserSavedSongs():
     savedSongs = []
     increment = 1
     offset = 0
+
+    #######################################################################################################################
     # Limit calls to 500 to prevent Application from being blocklisted. This can be commented out to fully use application.
+    # totalSongs = getUserSavedSongsTotal()
     # if totalSongs > 500:
     #     totalSongs = 500
-    # totalSongs = getUserSavedSongsTotal()
+    #######################################################################################################################
+
     totalSongs = 20
     while offset < totalSongs:
         temp = spotifyObject.current_user_saved_tracks(limit=increment, offset = offset)
@@ -125,20 +128,26 @@ def spotifyCSV(tracks):
 def pruneData(csvName):
     df = pd.read_csv(csvName)
     df.columns = ['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo']
-    df = df.drop(columns=['index', 'name', 'album', 'artist', 'release_date', 'length'])
+    df = df.drop(columns=['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity'])
     dataCorrelation = df.corr()
     return df, dataCorrelation
 
 ''' Generate seaborn heatmap '''
 def heatmap(dataCorrelation):
-    sn.set(rc={'figure.figsize':(30,30)})
+    # Generate mask to remove duplicates in heatmap
     mask = np.triu(np.ones_like(dataCorrelation, dtype=bool))
-    f, ax = plt.subplots(figsize=(11, 9))
-    cmap = sn.diverging_palette(230, 20, as_cmap=True)
+    # Configure size of graph
+    f, ax = plt.subplots(figsize=(12, 12))
+    # Generate colormap
+    # cmap = sn.diverging_palette(230, 20, as_cmap=True)
+    cmap = sn.diverging_palette(150, 275, s=80, l=55, n=9)
 
-    sn.heatmap(dataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
+    # sn.heatmap(dataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
+    sn.heatmap(dataCorrelation, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
     plt.show()
 
+
+''' Main function to run program '''
 def main():
     try:
         tracks = trackFeaturesGenerator()
