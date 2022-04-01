@@ -160,10 +160,11 @@ def getUsername():
 
 def continuePrompt():
     ''' Determines if User would like to re-run program '''
-    continueVar = input('Analysis complete. Rerun? (Y/N)\n').lower()
+    continueVar = input('Analysis complete. Rerun? (Y/N)\n(Y): Yes\n(N): No\nSelection: ').lower()
     if continueVar == 'y':
         main()
     elif continueVar == 'n':
+        print('Goodbye')
         exit()
     else:
         print('Invalid response')
@@ -173,9 +174,10 @@ def continuePrompt():
 def processCSV(csvFileName):
     ''' Processes CSV for Data Analysis'''
     trackDF, featuresDF, featuresDataCorrelation = pruneData(csvFileName)
-    print(trackDF.describe())
-    print(featuresDF.describe())
+    # print(trackDF.describe())
+    # print(featuresDF.describe())
     releaseYearHistogram(trackDF)
+    print('Close Graph to continue.')
     trackFeatureHeatmap(featuresDataCorrelation)
     continuePrompt()
 
@@ -186,9 +188,12 @@ def main():
     if dataPrompt == '1':
         processCSV('data/spotipy-complete.csv')
     elif dataPrompt == '2':
+        # Check for existing user dataset
         file_exists = exists(f'data/spotipy-{username}.csv')
         if file_exists == True:
-            file = input('Spotify CSV exists, would you like to process? (Y/N)\n').lower()
+            if username == 'complete':
+                processCSV(f'data/spotipy-{username}.csv')
+            file = input('Spotify CSV exists, would you like to process? (Y/N)\n(Y): Yes\n(N): No\nSelection: ').lower()
             if file == 'y':
                 pass
             elif file == 'n':
@@ -208,48 +213,28 @@ def main():
 
 
 if __name__ == '__main__':
-    # try:
-    #     # Load environmental variables
-    #     load_dotenv(".env")
-
-    #     # Spotify secret keys
-    #     SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
-    #     SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
-    #     SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
-
-    #     # Create spotipy 
-    #     #username = usernamePrompt()
-    #     scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
-    #     # token = spotipyCredentials(username, scope)
-    #     # spotifyObject = spotipy.Spotify(auth=token)
-    #     clientAuthManager = SpotifyOAuth(client_id = SPOTIPY_CLIENT_ID, client_secret = SPOTIPY_CLIENT_SECRET, redirect_uri = SPOTIPY_REDIRECT_URI, scope=scope)
-    #     spotifyObject = spotipy.Spotify(auth_manager=clientAuthManager)
-    #     username, displayname = getUsername()
-    #     print(username + ' ' + displayname)
-        
-    #     # Execute main function
-    #     main()
-
-    # except:
-    #     print('Unknown error in Main function')
-
+    try:
         # Load environmental variables
-    load_dotenv(".env")
+        load_dotenv(".env")
 
-    # Spotify secret keys
-    SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
-    SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
-    SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+        # Spotify secret keys
+        SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
+        SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
+        SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+    except:
+        print('Missing ENV file. Please review readme')
 
-    # Create spotipy 
-    #username = usernamePrompt()
-    scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
-    # token = spotipyCredentials(username, scope)
-    # spotifyObject = spotipy.Spotify(auth=token)
-    clientAuthManager = SpotifyOAuth(client_id = SPOTIPY_CLIENT_ID, client_secret = SPOTIPY_CLIENT_SECRET, redirect_uri = SPOTIPY_REDIRECT_URI, scope=scope)
-    spotifyObject = spotipy.Spotify(auth_manager=clientAuthManager)
-    username, displayname = getUsername()
-    print(username + ' ' + displayname)
+    # Create spotipy object
+    try:
+        scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
+        clientAuthManager = SpotifyOAuth(client_id = SPOTIPY_CLIENT_ID, client_secret = SPOTIPY_CLIENT_SECRET, redirect_uri = SPOTIPY_REDIRECT_URI, scope=scope)
+        spotifyObject = spotipy.Spotify(auth_manager=clientAuthManager)
+        username, displayname = getUsername()
+    except:
+        print('User is not whitelisted. Contact developer to be added\n')
+        # If user is not whitelisted, use test dataset
+        print('Using test dataset from validated user\nGenerating new data will just use test dataset\n')
+        username = 'complete'
         
     # Execute main function
     main()
