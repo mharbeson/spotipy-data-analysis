@@ -143,7 +143,19 @@ def trackFeatureHeatmap(featuresDataCorrelation):
 def releaseYearHistogram(trackDF):
     ''' Generate Histogram based on Release Year '''
     yearDF = trackDF[['Release_Date']]
+    # yearDF['Release_Date'] = pd.to_datetime(yearDF['Release_Date'])
+    # yearDF['Release_Date'].dt.to_period('M')
+    # yearDF['Release_Date'].dt.strftime('%m/%Y')
+    yearDF['yyyy'] = pd.to_datetime(yearDF['Release_Date']).dt.year
+    
     print(yearDF)
+    # yearDF['Release_Date'] = pd.to_datetime(yearDF['Release_Date'])
+    # yearDF['Year'].dt.to_period('Y')
+    # yearDF['MonthYear'].dt.strftime('%m/%Y')
+    # yearDF['year'] = yearDF['Release_Date'].dt.to_period('Y')
+    # print(yearDF)
+    sn.histplot(data=yearDF, x='yyyy', binwidth=3)
+    plt.show()
 
 
 def usernamePrompt():
@@ -178,7 +190,7 @@ def processCSV(csvFileName):
     # print(featuresDF.describe())
     releaseYearHistogram(trackDF)
     print('Close Graph to continue.')
-    trackFeatureHeatmap(featuresDataCorrelation)
+    # trackFeatureHeatmap(featuresDataCorrelation)
     continuePrompt()
 
 

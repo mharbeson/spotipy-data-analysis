@@ -63,13 +63,9 @@ cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
-- Add Spotify API Keys to environment file:
-```
-vim .env
-```
+- Add Spotify API Keys to environment file in spotipy-data-analysis folder:
 
 ```
-# .env
 SPOTIPY_CLIENT_ID='56eb326*************************'
 SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
 SPOTIPY_REDIRECT_URI='https://google.com/'
@@ -100,10 +96,9 @@ cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
-- Add Spotify API Keys to environment file:
+- Add Spotify API Keys to environment file in spotipy-data-analysis folder:
 
 ```
-# .env
 SPOTIPY_CLIENT_ID='56eb326*************************'
 SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
 SPOTIPY_REDIRECT_URI='https://google.com/'
@@ -133,10 +128,9 @@ cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
-- Add Spotify API Keys to environment file:
+- Add Spotify API Keys to environment file in spotipy-data-analysis folder:
 
 ```
-# .env
 SPOTIPY_CLIENT_ID='56eb326*************************'
 SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
 SPOTIPY_REDIRECT_URI='https://google.com/'
