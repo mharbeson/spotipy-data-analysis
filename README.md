@@ -47,18 +47,18 @@ apt-get install python3-tk python3-gi-cairo
 ### Linux
 
 - Clone the repository: 
-```
+```bash
 git clone https://github.com/mharbeson/spotipy-data-analysis.git
 ``` 
 
 - Create and activate the virtual environment from the cloned directory:
-```
+```bash
 python3 -m venv spotipy-data-analysis
 source spotipy-data-analysis/bin/activate
 ```
 
 - Install requirements:
-```
+```bash
 cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
@@ -72,7 +72,7 @@ SPOTIPY_REDIRECT_URI='https://google.com/'
 ```
 
 - Execute main.py. User will be prompted to paste the redirect URL into the application.
-```
+```bash
 python3 main.py
 ```
 
@@ -80,18 +80,18 @@ python3 main.py
 ### Mac
 
 - Clone the repository: 
-```
+```bash
 git clone https://github.com/mharbeson/spotipy-data-analysis.git
 ``` 
 
 - Create and activate the virtual environment from the cloned directory:
-```
+```bash
 python3 -m venv spotipy-data-analysis
 source spotipy-data-analysis/bin/activate
 ```
 
 - Install requirements:
-```
+```bash
 cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
@@ -105,7 +105,7 @@ SPOTIPY_REDIRECT_URI='https://google.com/'
 ```
 
 - Execute main.py. User will be prompted to paste the redirect URL into the application.
-```
+```bash
 python3 main.py 
 ```
 
@@ -117,9 +117,14 @@ git clone https://github.com/mharbeson/spotipy-data-analysis.git
 ``` 
 
 - Create and activate the virtual environment from the cloned directory:
+```CMD
+python -m venv spotipy-data-analysis
+spotipy-data-analysis\Scripts\activate.bat
 ```
-python3 -m venv spotipy-data-analysis
-source spotipy-data-analysis/bin/activate
+
+```PowerShell
+python -m venv spotipy-data-analysis
+spotipy-data-analysis\Scripts\Activate.ps1
 ```
 
 - Install requirements:
@@ -138,7 +143,7 @@ SPOTIPY_REDIRECT_URI='https://google.com/'
 
 - Execute main.py. User will be prompted to paste the redirect URL into the application.
 ```
-python3 main.py
+python main.py
 ```
 
 ## Running
