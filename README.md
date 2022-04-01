@@ -33,6 +33,7 @@ This application provides interesting data analysis about a users Spotify listen
 ## Requirements
 
 - Python 3.8.10
+- A valid Spotify account with liked songs
 - Aquire a Spotify API Client ID and Secret ID from: https://developer.spotify.com/dashboard/applications
 - Users must have their email whitelisted to use my API Client ID and Secret ID. If generating a new API Client ID and Secret, users will need to add their own email. 
 - Linux users will require python3-tk and python3-gi-cairo. These can be installed by:
