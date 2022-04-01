@@ -50,12 +50,11 @@ def getCurrentUserSavedSongs():
 
     #######################################################################################################################
     # Limit calls to 500 to prevent Application from being blocklisted. This can be commented out to fully use application.
-    # totalSongs = getUserSavedSongsTotal()
-    # if totalSongs > 500:
-    #     totalSongs = 500
+    totalSongs = getUserSavedSongsTotal()
+    if totalSongs > 500:
+        totalSongs = 500
     #######################################################################################################################
 
-    totalSongs = 20
     while offset < totalSongs:
         temp = spotifyObject.current_user_saved_tracks(limit=increment, offset = offset)
         ids = getTrackId(temp)
