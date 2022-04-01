@@ -139,11 +139,9 @@ def heatmap(dataCorrelation):
     # Configure size of graph
     f, ax = plt.subplots(figsize=(12, 12))
     # Generate colormap
-    # cmap = sn.diverging_palette(230, 20, as_cmap=True)
     cmap = sn.diverging_palette(150, 275, s=80, l=55, n=9)
 
-    # sn.heatmap(dataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
-    sn.heatmap(dataCorrelation, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
+    sn.heatmap(dataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
     plt.show()
 
 
