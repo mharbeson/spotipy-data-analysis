@@ -1,62 +1,48 @@
 import os
-import sys
 import spotipy
 import spotipy.util as util
 import pandas as pd
 import numpy as np
 import seaborn as sn
 import matplotlib.pyplot as plt
+from os.path import exists
 from json.decoder import JSONDecodeError
 from dotenv import load_dotenv
+from spotipy.oauth2 import SpotifyOAuth
 
-# Load environmental variables from .env file
-load_dotenv(".env")
-
-# Get the username from terminal
-try: 
-    username = sys.argv[1]
-except:
-    print('No username arg passed, using static username')
-    username = '1236194609'
-
-scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
 
 def get_key_env(key_name):
-    """returns the value of the key - from OS env file"""
+    '''Returns the value of the key - from OS env file'''
     key_value = os.getenv(key_name)
     return key_value
 
-SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
-SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
-SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
 
-# Erase cache and prompt for user permission
-try:
-    token = util.prompt_for_user_token(username, scope)
-except (AttributeError, JSONDecodeError):
-    os.remove(f".cache-{username}")
-    token = util.prompt_for_user_token(username, scope)
-
-# Create our spotify object with permissions
-spotifyObject = spotipy.Spotify(auth=token)
+def spotipyCredentials(username, scope):
+    ''' Returns token for auth '''
+    try:
+        token = util.prompt_for_user_token(username, scope)
+    except (AttributeError, JSONDecodeError):
+        os.remove(f".cache-{username}")
+        token = util.prompt_for_user_token(username, scope)
+    return token
 
 
-''' Returns the ID number of a track'''
 def getTrackId(saved_songs):
+    ''' Returns the ID number of a track'''
     for item in saved_songs['items']:
         track = item['track']
         id = track['id']
     return id
 
 
-''' Return total number of songs in users saved tracks '''
 def getUserSavedSongsTotal():
+    ''' Return total number of songs in users saved tracks '''
     tempSong = spotifyObject.current_user_saved_tracks(limit=1)
     return tempSong['total']
 
 
-''' Returns list of current users liked songs. Currently rate limited to the last 500 tracks liked. See comment below. '''
 def getCurrentUserSavedSongs():
+    ''' Returns list of current users liked songs. Currently rate limited to the last 500 tracks liked. See comment below. '''
     savedSongs = []
     increment = 1
     offset = 0
@@ -78,8 +64,8 @@ def getCurrentUserSavedSongs():
     return savedSongs
 
 
-''' Returns list of track features '''
 def getTrackFeatures(id):
+    ''' Returns list of track features '''
     track_info = spotifyObject.track(id)
     features = spotifyObject.audio_features(id)
 
@@ -102,74 +88,168 @@ def getTrackFeatures(id):
     valence = features[0]['valence']
     tempo = features[0]['tempo']
 
-
+    # Assign values to list
     track_features = [name, album, artist, release_date, length, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo]
     return track_features
 
-''' Requests data from Spotify and returns list of tracks with features '''
+
 def trackFeaturesGenerator():
-        tracks = []
-        recent_songs = getCurrentUserSavedSongs()
-        for item in recent_songs:
-            print(f'Anlyzing track {recent_songs.index(item) + 1} of {len(recent_songs)}')
-            track = getTrackFeatures(item)
-            tracks.append(track)
-        return tracks
+    ''' Requests data from Spotify and returns list of tracks with features '''
+    tracks = []
+    recent_songs = getCurrentUserSavedSongs()
+    for item in recent_songs:
+        print(f'Anlyzing track {recent_songs.index(item) + 1} of {len(recent_songs)}')
+        track = getTrackFeatures(item)
+        tracks.append(track)
+    return tracks
     
 
-''' Generates CSV using Pandas dataframes'''
 def spotifyCSV(tracks):
-    df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
-    df['release_date'] = pd.to_datetime(df['release_date'], format='%Y-%m-%d')
-    df.to_csv('data/spotipy.csv', sep = ',')
+    ''' Generates CSV using Pandas dataframes'''
+    df = pd.DataFrame(tracks, columns = ['Name', 'Album', 'Artist', 'Release_Date', 'Length', 'Popularity', 'Danceability', 'Energy', 'Key', 'Loudness', 'Mode', 'Speechiness', 'Acousticness', 'Instrumentalness', 'Liveness', 'Valence', 'Tempo'])
+    df['Release_Date'] = pd.to_datetime(df['Release_Date'], format='%Y-%m-%d')
+    df.to_csv(f'data/spotipy-{username}.csv', sep = ',')
 
 
-''' Prune Data from CSV for analysis '''
 def pruneData(csvName):
+    ''' Prune Data from CSV for analysis '''
     df = pd.read_csv(csvName)
-    df.columns = ['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo']
+    df.columns = ['Index', 'Name', 'Album', 'Artist', 'Release_Date', 'Length', 'Popularity', 'Danceability', 'Energy', 'Key', 'Loudness', 'Mode', 'Speechiness', 'Acousticness', 'Instrumentalness', 'Liveness', 'Valence', 'Tempo']
 
     # Drop artist,album,track name, etc
-    featuresDF = df.drop(columns=['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity', 'mode', 'key'])
+    featuresDF = df.drop(columns=['Index', 'Name', 'Album', 'Artist', 'Release_Date', 'Length', 'Popularity', 'Mode', 'Key'])
     featuresDataCorrelation = featuresDF.corr()
 
     # Drop unused song features
-    trackDF = df.drop(columns=['index', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
+    trackDF = df.drop(columns=['Length', 'Popularity', 'Danceability', 'Energy', 'Key', 'Loudness', 'Mode', 'Speechiness', 'Acousticness', 'Instrumentalness', 'Liveness', 'Valence', 'Tempo'])
 
     return trackDF, featuresDF, featuresDataCorrelation
 
-''' Generate Track Feature heatmap '''
+
 def trackFeatureHeatmap(featuresDataCorrelation):
+    ''' Generate Track Feature heatmap '''
+
     # Generate mask to remove duplicates in heatmap
     mask = np.triu(np.ones_like(featuresDataCorrelation, dtype=bool))
     # Configure size of graph
     f, ax = plt.subplots(figsize=(12, 12))
     # Generate colormap
     cmap = sn.diverging_palette(150, 275, s=80, l=55, n=9)
-
+    # Generate heatmap to screen
     sn.heatmap(featuresDataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
     plt.show()
 
 
-''' Generate Histogram based on Release Year '''
 def releaseYearHistogram(trackDF):
-    print()
+    ''' Generate Histogram based on Release Year '''
+    yearDF = trackDF[['Release_Date']]
+    print(yearDF)
 
 
-''' Main function to run program '''
+def usernamePrompt():
+    ''' Returns username to be used '''
+    username = input('Enter username to run analysis on:\n')
+    return username
+
+def getUsername():
+    ''' Returns username / ID '''
+    user = spotifyObject.current_user()
+    username = user['id']
+    displayname = user['display_name']
+    return username, displayname
+
+def continuePrompt():
+    ''' Determines if User would like to re-run program '''
+    continueVar = input('Analysis complete. Rerun? (Y/N)\n').lower()
+    if continueVar == 'y':
+        main()
+    elif continueVar == 'n':
+        exit()
+    else:
+        print('Invalid response')
+        continuePrompt()
+
+
+def processCSV(csvFileName):
+    ''' Processes CSV for Data Analysis'''
+    trackDF, featuresDF, featuresDataCorrelation = pruneData(csvFileName)
+    print(trackDF.describe())
+    print(featuresDF.describe())
+    releaseYearHistogram(trackDF)
+    trackFeatureHeatmap(featuresDataCorrelation)
+    continuePrompt()
+
+
 def main():
-    try:
-        tracks = trackFeaturesGenerator()
-        spotifyCSV(tracks)
-        trackDF, featuresDF, featuresDataCorrelation = pruneData('data/spotipy.csv')
-        print(trackDF.describe())
-        print(featuresDF.describe())
-        trackFeatureHeatmap(featuresDataCorrelation)
+    ''' Main function to run program '''
+    dataPrompt = input('Select an option for analysis:\n(1) Use the sample dataset\n(2) Generate new data\nSelection: ')
+    if dataPrompt == '1':
+        processCSV('data/spotipy-complete.csv')
+    elif dataPrompt == '2':
+        file_exists = exists(f'data/spotipy-{username}.csv')
+        if file_exists == True:
+            file = input('Spotify CSV exists, would you like to process? (Y/N)\n').lower()
+            if file == 'y':
+                pass
+            elif file == 'n':
+                tracks = trackFeaturesGenerator()
+                spotifyCSV(tracks)
+            else:
+                print('Invalid User Prompt')
 
+            # Process Existing CSV
+            processCSV(f'data/spotipy-{username}.csv')
 
-    except: 
-        print('Unknown Error, Please restart')
+        # If file does not exist, regenerate CSV and process
+        else:
+            tracks = trackFeaturesGenerator()
+            spotifyCSV(tracks)
+            processCSV(f'data/spotipy-{username}.csv')
 
 
 if __name__ == '__main__':
+    # try:
+    #     # Load environmental variables
+    #     load_dotenv(".env")
+
+    #     # Spotify secret keys
+    #     SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
+    #     SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
+    #     SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+
+    #     # Create spotipy 
+    #     #username = usernamePrompt()
+    #     scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
+    #     # token = spotipyCredentials(username, scope)
+    #     # spotifyObject = spotipy.Spotify(auth=token)
+    #     clientAuthManager = SpotifyOAuth(client_id = SPOTIPY_CLIENT_ID, client_secret = SPOTIPY_CLIENT_SECRET, redirect_uri = SPOTIPY_REDIRECT_URI, scope=scope)
+    #     spotifyObject = spotipy.Spotify(auth_manager=clientAuthManager)
+    #     username, displayname = getUsername()
+    #     print(username + ' ' + displayname)
+        
+    #     # Execute main function
+    #     main()
+
+    # except:
+    #     print('Unknown error in Main function')
+
+        # Load environmental variables
+    load_dotenv(".env")
+
+    # Spotify secret keys
+    SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
+    SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
+    SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+
+    # Create spotipy 
+    #username = usernamePrompt()
+    scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
+    # token = spotipyCredentials(username, scope)
+    # spotifyObject = spotipy.Spotify(auth=token)
+    clientAuthManager = SpotifyOAuth(client_id = SPOTIPY_CLIENT_ID, client_secret = SPOTIPY_CLIENT_SECRET, redirect_uri = SPOTIPY_REDIRECT_URI, scope=scope)
+    spotifyObject = spotipy.Spotify(auth_manager=clientAuthManager)
+    username, displayname = getUsername()
+    print(username + ' ' + displayname)
+        
+    # Execute main function
     main()
