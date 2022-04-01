@@ -4,6 +4,7 @@ import spotipy.util as util
 import pandas as pd
 import numpy as np
 import seaborn as sn
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 from os.path import exists
 from json.decoder import JSONDecodeError
@@ -143,18 +144,15 @@ def trackFeatureHeatmap(featuresDataCorrelation):
 def releaseYearHistogram(trackDF):
     ''' Generate Histogram based on Release Year '''
     yearDF = trackDF[['Release_Date']]
-    # yearDF['Release_Date'] = pd.to_datetime(yearDF['Release_Date'])
-    # yearDF['Release_Date'].dt.to_period('M')
-    # yearDF['Release_Date'].dt.strftime('%m/%Y')
-    yearDF['yyyy'] = pd.to_datetime(yearDF['Release_Date']).dt.year
-    
-    print(yearDF)
-    # yearDF['Release_Date'] = pd.to_datetime(yearDF['Release_Date'])
-    # yearDF['Year'].dt.to_period('Y')
-    # yearDF['MonthYear'].dt.strftime('%m/%Y')
-    # yearDF['year'] = yearDF['Release_Date'].dt.to_period('Y')
-    # print(yearDF)
-    sn.histplot(data=yearDF, x='yyyy', binwidth=3)
+    yearDF['Release Year'] = pd.to_datetime(yearDF['Release_Date']).dt.year
+    f, ax = plt.subplots(figsize=(12, 12))
+    sn.despine(f)
+    # Build histogram
+    sn.histplot(data=yearDF, x='Release Year', binwidth=2, color='green', alpha=0.5)
+    # Modify X axis
+    ax.xaxis.set_major_formatter(mpl.ticker.ScalarFormatter())
+    ax.set_xticks([1950, 1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020])
+    # Generate histogram to screen
     plt.show()
 
 
@@ -186,11 +184,15 @@ def continuePrompt():
 def processCSV(csvFileName):
     ''' Processes CSV for Data Analysis'''
     trackDF, featuresDF, featuresDataCorrelation = pruneData(csvFileName)
-    # print(trackDF.describe())
-    # print(featuresDF.describe())
+    print('Basic info on Tracks\n')
+    print(trackDF.describe())
+    print('Track Feature Correlation Table Information')
+    print(featuresDF.describe())
+    input('Press any key to continue.\n')
+    print('Close Graph to continue.\n')
     releaseYearHistogram(trackDF)
-    print('Close Graph to continue.')
-    # trackFeatureHeatmap(featuresDataCorrelation)
+    print('Close Graph to continue.\n')
+    trackFeatureHeatmap(featuresDataCorrelation)
     continuePrompt()
 
 
