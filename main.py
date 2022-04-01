@@ -128,21 +128,32 @@ def spotifyCSV(tracks):
 def pruneData(csvName):
     df = pd.read_csv(csvName)
     df.columns = ['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo']
-    df = df.drop(columns=['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity'])
-    dataCorrelation = df.corr()
-    return df, dataCorrelation
 
-''' Generate seaborn heatmap '''
-def heatmap(dataCorrelation):
+    # Drop artist,album,track name, etc
+    featuresDF = df.drop(columns=['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity', 'mode', 'key'])
+    featuresDataCorrelation = featuresDF.corr()
+
+    # Drop unused song features
+    trackDF = df.drop(columns=['index', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
+
+    return trackDF, featuresDF, featuresDataCorrelation
+
+''' Generate Track Feature heatmap '''
+def trackFeatureHeatmap(featuresDataCorrelation):
     # Generate mask to remove duplicates in heatmap
-    mask = np.triu(np.ones_like(dataCorrelation, dtype=bool))
+    mask = np.triu(np.ones_like(featuresDataCorrelation, dtype=bool))
     # Configure size of graph
     f, ax = plt.subplots(figsize=(12, 12))
     # Generate colormap
     cmap = sn.diverging_palette(150, 275, s=80, l=55, n=9)
 
-    sn.heatmap(dataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
+    sn.heatmap(featuresDataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
     plt.show()
+
+
+''' Generate Histogram based on Release Year '''
+def releaseYearHistogram(trackDF):
+    print()
 
 
 ''' Main function to run program '''
@@ -150,9 +161,10 @@ def main():
     try:
         tracks = trackFeaturesGenerator()
         spotifyCSV(tracks)
-        df, dataCorrelation = pruneData('data/spotipy.csv')
-        print(df.describe())
-        heatmap(dataCorrelation)
+        trackDF, featuresDF, featuresDataCorrelation = pruneData('data/spotipy.csv')
+        print(trackDF.describe())
+        print(featuresDF.describe())
+        trackFeatureHeatmap(featuresDataCorrelation)
 
 
     except: 
