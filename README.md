@@ -37,8 +37,8 @@ This application provides interesting data analysis about a users Spotify listen
 - User Spotify ID
     - This can be found either on Spotify's website by logging in, or in the hyperlink to a user's profile.
     <img src=assets/accountoverview.png width="100%">
-    - Bold text below is the location of a user's ID in a hyperlink.
-    - https://open.spotify.com/user/**1236194609**?si=a152edcdd8c34981
+    - Field below is the location of a user's ID in a hyperlink.
+    - https://open.spotify.com/user/[USER_ID_HERE]?si=a152edcdd8c34981
 
 ## Install
 
@@ -163,19 +163,14 @@ python3 main.py
 
 - Category 1: Python Programming Basics:
     - Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
-        - see
     - Create and call at least 3 functions or methods, at least one of which must return a value that is used somewhere else in your code. To clarify, at least one function should be called in your code, that function should calculate, retrieve, or otherwise set the value of a variable or data structure, return a value to where it was called, and use that value somewhere else in your code.
-        - see
 
 - Category 2: Utilize External Data:
     - Connect to an external/3rd party API and read data into your app
-        - see
 
 - Category 3: Data Display
     - Visualize data in a graph, chart, or other visual representation of data.
-        - see
     - Display data in tabular form
-        - see
 
 - Category 4: Best Practices
     - The program should utilize a virtual environment and document library dependencies in a requirements.txt file.
