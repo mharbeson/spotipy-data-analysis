@@ -33,12 +33,8 @@ This application provides interesting data analysis about a users Spotify listen
 ## Requirements
 
 - Python 3.8.10
-- Aquire a Spotify API Client ID and Secret ID from: https://developer.spotify.com/documentation/web-api/quick-start
-- User Spotify ID
-    - This can be found either on Spotify's website by logging in, or in the hyperlink to a user's profile.
-    <img src=assets/accountoverview.png width="100%">
-    - Field below is the location of a user's ID in a hyperlink.
-    - https://open.spotify.com/user/[USER_ID_HERE]?si=a152edcdd8c34981
+- Aquire a Spotify API Client ID and Secret ID from: https://developer.spotify.com/dashboard/applications
+- Users must have their email whitelisted to use my API Client ID and Secret ID. If generating a new API Client ID and Secret, users will need to add their own email. 
 - Linux users will require python3-tk and python3-gi-cairo. These can be installed by:
 ```
 apt-get install python3-tk python3-gi-cairo
@@ -68,19 +64,17 @@ pip install -r requirements.txt
 
 - Add Spotify API Keys to environment file:
 ```
-vim /etc/environment
+vim .env
 ```
 
 ```
-# /etc/environment
+# .env
 SPOTIPY_CLIENT_ID='56eb326*************************'
 SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
 SPOTIPY_REDIRECT_URI='https://google.com/'
 ```
 
-
-
-- Execute main.py passing user name as first requirement. If not user ID is provided, it will use my personal ID:
+- Execute main.py. User will be prompted to paste the redirect URL into the application.
 ```
 python3 main.py
 ```
@@ -105,15 +99,16 @@ cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
-- Add Spotify API Keys to environment variables:
+- Add Spotify API Keys to environment file:
 
 ```
-export SPOTIPY_CLIENT_ID='56eb326*************************'
-export SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
-export SPOTIPY_REDIRECT_URI='https://google.com/'
+# .env
+SPOTIPY_CLIENT_ID='56eb326*************************'
+SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
+SPOTIPY_REDIRECT_URI='https://google.com/'
 ```
 
-- Execute main.py passing user name as first requirement. If not user ID is provided, it will use my personal ID:
+- Execute main.py. User will be prompted to paste the redirect URL into the application.
 ```
 python3 main.py 
 ```
@@ -137,15 +132,16 @@ cd spotipy-data-analysis
 pip install -r requirements.txt
 ```
 
-- Add Spotify API Keys to environment variables:
+- Add Spotify API Keys to environment file:
 
 ```
-SET SPOTIPY_CLIENT_ID='56eb326*************************'
-SET SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
-SET SPOTIPY_REDIRECT_URI='https://google.com/'
+# .env
+SPOTIPY_CLIENT_ID='56eb326*************************'
+SPOTIPY_CLIENT_SECRET='cfd2cd*************************'
+SPOTIPY_REDIRECT_URI='https://google.com/'
 ```
 
-- Execute main.py passing user name as first requirement. If not user ID is provided, it will use my personal ID:
+- Execute main.py. User will be prompted to paste the redirect URL into the application.
 ```
 python3 main.py
 ```
@@ -163,17 +159,23 @@ python3 main.py
 
 - Category 1: Python Programming Basics:
     - Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
+        - See function trackFeaturesGenerator()
     - Create and call at least 3 functions or methods, at least one of which must return a value that is used somewhere else in your code. To clarify, at least one function should be called in your code, that function should calculate, retrieve, or otherwise set the value of a variable or data structure, return a value to where it was called, and use that value somewhere else in your code.
+        - See main.py
 
 - Category 2: Utilize External Data:
     - Connect to an external/3rd party API and read data into your app
+        - See main.py
 
 - Category 3: Data Display
     - Visualize data in a graph, chart, or other visual representation of data.
+        - See function trackFeatureHeatmap()
     - Display data in tabular form
+        - See function releaseYearHistogram()
 
 - Category 4: Best Practices
     - The program should utilize a virtual environment and document library dependencies in a requirements.txt file.
+        - See readme for requirements.txt
 
 - Future Stretch Items
     - Add the ability to compare the listening habits of two users
