@@ -39,6 +39,8 @@ This application provides interesting data analysis about a users Spotify listen
     <img src=assets/accountoverview.png width="100%">
     - Field below is the location of a user's ID in a hyperlink.
     - https://open.spotify.com/user/[USER_ID_HERE]?si=a152edcdd8c34981
+- Linux users will require:
+    - python3-gi-cairo
 
 ## Install
 
@@ -80,11 +82,6 @@ SPOTIPY_REDIRECT_URI='https://google.com/'
 python3 main.py
 ```
 
-
-- 
-    - if using Windows PowerShell: `venv\Scripts\Activate.ps1`
-    - if using Linux or Mac: `venv/bin/activate`
-- Run `pip install -r requirements.txt` to install the required packages.
 
 ### Mac
 

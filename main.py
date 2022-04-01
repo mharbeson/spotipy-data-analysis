@@ -1,8 +1,12 @@
 import os
+# from statistics import correlation
 import sys
 import spotipy
-import pandas as pd
 import spotipy.util as util
+import pandas as pd
+import numpy as np
+import seaborn as sn
+import matplotlib.pyplot as plt
 from json.decoder import JSONDecodeError
 from dotenv import load_dotenv
 
@@ -37,6 +41,7 @@ except (AttributeError, JSONDecodeError):
 # Create our spotify object with permissions
 spotifyObject = spotipy.Spotify(auth=token)
 
+
 ''' Returns the ID number of a track'''
 def getTrackId(saved_songs):
     for item in saved_songs['items']:
@@ -49,6 +54,7 @@ def getTrackId(saved_songs):
 def getUserSavedSongsTotal():
     tempSong = spotifyObject.current_user_saved_tracks(limit=1)
     return tempSong['total']
+
 
 ''' Returns list of current users liked songs. Currently rate limited to the last 500 tracks liked. See comment below. '''
 def getCurrentUserSavedSongs():
@@ -97,26 +103,50 @@ def getTrackFeatures(id):
     track_features = [name, album, artist, release_date, length, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo]
     return track_features
 
-
-''' Generates CSV using Pandas dataframes'''
-def spotifyCSV(tracks):
-    df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
-
-    df['release_date'] = pd.to_datetime(df['release_date'], format='%Y-%m-%d')
-
-    df.to_csv('data/spotipy.csv', sep = ',')
-
-
-def main():
-    try:
+''' Requests data from Spotify and returns list of tracks with features '''
+def trackFeaturesGenerator():
         tracks = []
         recent_songs = getCurrentUserSavedSongs()
         for item in recent_songs:
             print(f'Anlyzing track {recent_songs.index(item) + 1} of {len(recent_songs)}')
             track = getTrackFeatures(item)
             tracks.append(track)
+        return tracks
     
+
+''' Generates CSV using Pandas dataframes'''
+def spotifyCSV(tracks):
+    df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo'])
+    df['release_date'] = pd.to_datetime(df['release_date'], format='%Y-%m-%d')
+    df.to_csv('data/spotipy.csv', sep = ',')
+
+
+''' Prune Data from CSV for analysis '''
+def pruneData(csvName):
+    df = pd.read_csv(csvName)
+    df.columns = ['index', 'name', 'album', 'artist', 'release_date', 'length', 'popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo']
+    df = df.drop(columns=['index', 'name', 'album', 'artist', 'release_date', 'length'])
+    dataCorrelation = df.corr()
+    return df, dataCorrelation
+
+''' Generate seaborn heatmap '''
+def heatmap(dataCorrelation):
+    sn.set(rc={'figure.figsize':(30,30)})
+    mask = np.triu(np.ones_like(dataCorrelation, dtype=bool))
+    f, ax = plt.subplots(figsize=(11, 9))
+    cmap = sn.diverging_palette(230, 20, as_cmap=True)
+
+    sn.heatmap(dataCorrelation, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
+    plt.show()
+
+def main():
+    try:
+        tracks = trackFeaturesGenerator()
         spotifyCSV(tracks)
+        df, dataCorrelation = pruneData('data/spotipy.csv')
+        print(df.describe())
+        heatmap(dataCorrelation)
+
 
     except: 
         print('Unknown Error, Please restart')
