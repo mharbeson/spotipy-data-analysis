@@ -1,0 +1,21 @@
+,name,album,artist,release_date,length,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo
+0,Nightrider,What Kinda Music,Tom Misch,2020-04-24,300990,62,0.729,0.571,11,-9.188,0,0.0869,0.0774,0.213,0.0994,0.582,81.486
+1,Freelance,Outer Peace,Toro y Moi,2019-01-18,225915,55,0.975,0.474,9,-7.162,0,0.131,0.0174,0.00886,0.142,0.856,115.014
+2,Losing My Way,Losing My Way,FKJ,2016-11-16,259200,32,0.838,0.432,6,-14.398,1,0.228,0.562,0.363,0.0987,0.127,99.978
+3,Molasses,Choose Your Weapon (Japan Version),Hiatus Kaiyote,2015-01-01,289400,24,0.562,0.435,7,-7.504,0,0.207,0.197,1.93e-05,0.161,0.488,84.633
+4,Experience,JAGUAR,Victoria Monét,2020-08-07,176773,65,0.614,0.809,9,-4.749,1,0.0738,0.0105,0.000353,0.148,0.354,112.023
+5,Love Letter (feat. The Knocks),Love Letter (feat. The Knocks),ODESZA,2022-03-23,253121,70,0.635,0.835,8,-2.876,1,0.0589,0.0948,0.0119,0.285,0.216,109.987
+6,Rachael's Little Brother,Heavy Is The Head,Stormzy,2019-12-13,337800,58,0.575,0.629,5,-7.461,1,0.376,0.124,0.0,0.378,0.21,83.035
+7,Audacity (feat. Headie One),Heavy Is The Head,Stormzy,2019-12-13,245920,68,0.678,0.516,1,-4.601,1,0.444,0.0523,0.0,0.13,0.11,133.939
+8,Pop Boy (feat. Aitch),Heavy Is The Head,Stormzy,2019-12-13,151943,62,0.883,0.802,9,-3.234,1,0.313,0.0209,0.0,0.198,0.715,109.914
+9,Wiley Flow,Heavy Is The Head,Stormzy,2019-12-13,207365,67,0.716,0.68,5,-4.721,0,0.309,0.241,0.0,0.202,0.475,140.417
+10,Vossi Bop,Heavy Is The Head,Stormzy,2019-12-13,196266,72,0.682,0.653,8,-6.062,1,0.339,0.13,0.00116,0.129,0.428,188.115
+11,Don't Keep It To Yourself,Don't Keep It To Yourself,Ruthven,2021-10-26,264788,49,0.695,0.268,6,-12.287,1,0.129,0.482,0.00725,0.136,0.331,86.021
+12,Dapper (feat. Anderson .Paak),Genesis,Domo Genesis,2016-03-25,193093,65,0.753,0.594,1,-9.486,0,0.0816,0.0711,0.0,0.391,0.562,112.568
+13,Switch - DEVAULT Remix,Switch (DEVAULT Remix),6LACK,2018-11-16,229481,55,0.347,0.836,9,-6.144,0,0.363,0.0253,5.7e-05,0.305,0.137,86.397
+14,Second Nature,Second Nature,Stalking Gia,2016-06-24,246609,44,0.865,0.548,10,-7.379,0,0.192,0.652,0.0161,0.113,0.887,109.989
+15,Let Go,Ryan Adams,Ryan Adams,2014-09-09,223786,22,0.691,0.446,5,-6.924,1,0.026,0.254,0.000333,0.0726,0.355,138.027
+16,She's Casual,100,The Hunna,2016-08-26,183760,56,0.435,0.591,2,-6.973,1,0.057,0.0132,0.0,0.101,0.0941,129.93
+17,Bad Habit,Bad Habit,The Kooks,2014-01-01,221413,0,0.731,0.886,0,-4.206,0,0.0385,0.0528,2.18e-05,0.136,0.849,123.062
+18,Nail Tech,Nail Tech,Jack Harlow,2022-02-18,206385,90,0.647,0.581,4,-7.678,0,0.0884,0.0029,7.76e-06,0.119,0.113,150.149
+19,B-Side,B-Side,Khruangbin,2021-12-08,274391,70,0.73,0.735,7,-10.572,1,0.0548,0.0768,0.164,0.338,0.693,104.77

@@ -1,28 +1,23 @@
 import os
 import sys
 import spotipy
-import webbrowser
+# import webbrowser
 import pandas as pd
 import spotipy.util as util
 from json.decoder import JSONDecodeError
-from spotipy.oauth2 import SpotifyClientCredentials
+# from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
 
 # Load environmental variables from .env file
 load_dotenv(".env")
 
 # Get the username from terminal
+try: 
+    username = sys.argv[1]
+except:
+    print('No username arg passed, using static username')
+    username = '1236194609'
 
-# try: 
-#     username = sys.argv[1]
-# except:
-#     print('No username arg passed, using static username')
-#     username = '1236194609'
-#     print(username)
-
-
-# username = sys.argv[1]
-username = '1236194609'
 scope = 'user-read-private user-read-playback-state user-library-read user-read-recently-played'
 
 def get_key_env(key_name):
@@ -31,9 +26,9 @@ def get_key_env(key_name):
     return key_value
 
 
-SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
-SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
-SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
+# SPOTIPY_CLIENT_ID = get_key_env('SPOTIPY_CLIENT_ID')
+# SPOTIPY_CLIENT_SECRET = get_key_env('SPOTIPY_CLIENT_SECRET')
+# SPOTIPY_REDIRECT_URI = get_key_env('SPOTIPY_REDIRECT_URI')
 
 
 # Erase cache and prompt for user permission
@@ -45,7 +40,6 @@ except (AttributeError, JSONDecodeError):
 
 # Create our spotify object with permissions
 spotifyObject = spotipy.Spotify(auth=token)
-
 
 def getTrackId(saved_songs):
     for item in saved_songs['items']:
@@ -63,18 +57,14 @@ def getUserSavedSongsTotal():
 def getCurrentUserSavedSongs():
     savedSongs = []
     increment = 1
-    # Max increment spotipy supports
-    # increment = 20
     offset = 0
+    # Limit calls to 500 to prevent Application from being blocklisted. This can be commented out to fully use application.
+    # if totalSongs > 500:
+    #     totalSongs = 500
     # totalSongs = getUserSavedSongsTotal()
     totalSongs = 20
     while offset < totalSongs:
         temp = spotifyObject.current_user_saved_tracks(limit=increment, offset = offset)
-        # print(temp)
-        # for item in temp:
-        #     ids = getTrackId(temp)
-        #     savedSongs.append(ids)
-        #     print(ids)
         ids = getTrackId(temp)
         savedSongs.append(ids)
         offset += increment
@@ -109,7 +99,6 @@ def getTrackFeatures(id):
 
     track_features = [name, album, artist, release_date, length, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo]
     return track_features
-
 
 
 tracks = []

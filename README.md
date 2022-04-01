@@ -24,6 +24,7 @@ This application provides interesting data analysis about a users Spotify listen
   - [Linux](#Linux)
   - [Mac](#Mac)
   - [Windows](#Windows)
+- [Running](#Running)
 - [Notes](#Notes)
 - [Project Requirements](#project-requirements)
 
@@ -149,10 +150,14 @@ SET SPOTIPY_REDIRECT_URI='https://google.com/'
 python3 main.py
 ```
 
+## Running
+- After executing the program, a web browser will open and you will be prompted to login to your Spotify account. This account will be used to retrieve liked songs.
+
+
 ## Notes
 
 - Depending on the number of liked songs in a users library, this application may take 5-10 minutes to process the data. 
-- 
+- The Spotify API may limit the number of calls allowed by this application. Due to this, I have rate limited the calls to the first 500 tracks. 
 
 ## Project Requirements
 
