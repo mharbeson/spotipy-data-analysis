@@ -39,8 +39,11 @@ This application provides interesting data analysis about a users Spotify listen
     <img src=assets/accountoverview.png width="100%">
     - Field below is the location of a user's ID in a hyperlink.
     - https://open.spotify.com/user/[USER_ID_HERE]?si=a152edcdd8c34981
-- Linux users will require:
-    - python3-gi-cairo
+- Linux users will require python3-tk and python3-gi-cairo. These can be installed by:
+```
+apt-get install python3-tk python3-gi-cairo
+```
+
 
 ## Install
 
