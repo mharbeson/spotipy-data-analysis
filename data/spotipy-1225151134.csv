@@ -19,3 +19,483 @@
 17,Kilby Girl,When We Were Friends,The Backseat Lovers,2019-01-27,282205,83,0.329,0.444,1,-9.973,1,0.0417,0.0578,0.0352,0.113,0.225,162.279
 18,Shit Show,Shit Show,Peter McPoland,2021-09-03,200080,68,0.55,0.699,1,-3.635,1,0.17,0.435,0.0,0.197,0.697,169.955
 19,Bad Day,Bad Day,Justus Bennetts,2021-09-07,108800,76,0.883,0.713,9,-4.684,1,0.307,0.0125,0.0,0.45,0.855,89.025
+20,POWER,My Beautiful Dark Twisted Fantasy,Kanye West,2010-11-22,292093,83,0.542,0.914,0,-4.747,0,0.113,0.0161,0.0,0.744,0.576,153.993
+21,Carolina,Harry Styles,Harry Styles,2017-05-12,189613,73,0.624,0.673,4,-4.017,0,0.0268,0.000569,1.54e-06,0.104,0.458,121.986
+22,breadwinner,star-crossed,Kacey Musgraves,2021-09-10,200840,71,0.866,0.508,8,-8.591,0,0.058,0.769,8.35e-06,0.11,0.476,117.951
+23,justified,star-crossed,Kacey Musgraves,2021-09-10,180800,71,0.669,0.552,0,-7.98,1,0.0587,0.807,0.000874,0.321,0.488,100.102
+24,Ali In The Jungle,Narcissus Road,The Hours,2007-01-01,278866,37,0.692,0.932,8,-4.305,0,0.045,0.226,2.07e-06,0.0953,0.844,141.033
+25,Echo,Go,Vertical Horizon,2003-09-23,246226,33,0.394,0.923,6,-3.836,1,0.0782,0.00264,7.05e-06,0.121,0.447,181.855
+26,Ready To Let Go,Social Cues,Cage The Elephant,2019-04-19,187973,66,0.719,0.895,1,-3.263,1,0.0371,0.011,3.65e-05,0.0731,0.745,100.962
+27,Emmylou,The Lion's Roar,First Aid Kit,2012-01-24,258000,57,0.512,0.612,6,-5.831,1,0.0293,0.469,0.000144,0.1,0.371,88.271
+28,Fair Trade (with Travis Scott),Certified Lover Boy,Drake,2021-09-03,291175,89,0.666,0.465,1,-8.545,1,0.26,0.0503,0.0,0.215,0.292,167.937
+29,Rumors (feat. Cardi B),Rumors (feat. Cardi B),Lizzo,2021-08-13,172832,80,0.827,0.731,4,-5.524,0,0.088,0.13,0.0,0.418,0.607,118.992
+30,dancing in the kitchen,dancing in the kitchen,LANY,2021-06-25,208599,77,0.619,0.736,11,-7.651,1,0.0425,0.0328,0.0,0.0864,0.299,93.993
+31,Rain On Me (with Ariana Grande),Chromatica,Lady Gaga,2020-05-29,182200,80,0.672,0.855,9,-3.764,1,0.0397,0.021,0.0,0.323,0.646,123.056
+32,Happier Than Ever,Happier Than Ever,Billie Eilish,2021-07-30,298899,93,0.332,0.225,0,-8.697,1,0.0348,0.767,0.00349,0.128,0.297,81.055
+33,Let Me Know,Pacifico,Surfaces,2021-06-25,137307,66,0.834,0.725,11,-6.455,1,0.0366,0.0259,0.0,0.122,0.844,129.927
+34,Heaven Falls / Fall on Me,Heaven Falls / Fall on Me,Surfaces,2018-08-24,240597,71,0.563,0.366,11,-6.896,0,0.121,0.36,0.00243,0.0955,0.768,85.352
+35,Sunday Best,Where the Light Is,Surfaces,2019-01-06,158571,83,0.878,0.525,5,-6.832,1,0.0578,0.183,0.0,0.0714,0.694,112.022
+36,Baxter Avenue,Thats What They All Say,Jack Harlow,2020-12-11,207796,59,0.7,0.676,8,-8.74,1,0.372,0.15,0.0,0.106,0.684,92.597
+37,Luv Is Dro (feat. Static Major & Bryson Tiller),Thats What They All Say,Jack Harlow,2020-12-11,177190,74,0.727,0.513,6,-8.823,0,0.0524,0.0335,0.0,0.302,0.568,76.211
+38,Way Out (feat. Big Sean),Thats What They All Say,Jack Harlow,2020-12-11,168906,76,0.945,0.582,11,-8.357,0,0.0719,0.114,0.0,0.103,0.907,108.025
+39,Tyler Herro,Thats What They All Say,Jack Harlow,2020-12-11,156578,80,0.792,0.793,5,-6.185,0,0.0841,0.0872,0.0,0.22,0.775,123.031
+40,"Whats Poppin (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix] - Bonus Track",Thats What They All Say,Jack Harlow,2020-12-11,227478,77,0.904,0.723,11,-5.224,0,0.26,0.0631,0.0,0.185,0.835,145.013
+41,Josslyn,Josslyn,Olivia O'Brien,2020-05-15,189125,74,0.425,0.743,11,-5.54,0,0.148,0.012,0.0,0.709,0.344,84.748
+42,baby blue (feat. Olivia O'Brien),the dempsey hope project,dempsey hope,2020-10-30,200013,52,0.681,0.638,6,-9.117,0,0.0537,0.000852,0.0,0.0698,0.698,118.113
+43,One More Weekend,One More Weekend,Maude Latour,2020-07-24,142829,70,0.627,0.565,3,-6.922,1,0.122,0.537,0.0,0.214,0.514,131.083
+44,Renegade (feat. Taylor Swift),Renegade (feat. Taylor Swift),Big Red Machine,2021-07-02,254466,70,0.532,0.708,0,-8.121,1,0.0505,0.435,0.0236,0.107,0.586,167.977
+45,Roses,Roses,The Band CAMINO,2020-12-11,181673,9,0.703,0.768,1,-5.069,1,0.0339,0.0339,1.3e-06,0.0328,0.786,95.983
+46,Wave of You,Pacifico,Surfaces,2021-06-25,213842,72,0.695,0.656,1,-6.038,1,0.0489,0.057,0.0,0.267,0.346,90.986
+47,Killer (feat. Jack Harlow & Cordae) - Remix,Killer (feat. Jack Harlow & Cordae) [Remix],Eminem,2021-05-28,236665,76,0.924,0.73,11,-6.125,0,0.274,0.0525,0.0,0.113,0.848,99.01
+48,INDUSTRY BABY (feat. Jack Harlow),INDUSTRY BABY (feat. Jack Harlow),Lil Nas X,2021-07-23,212000,95,0.736,0.704,3,-7.409,0,0.0615,0.0203,0.0,0.0501,0.894,149.995
+49,STAY (with Justin Bieber),STAY (with Justin Bieber),The Kid LAROI,2021-07-09,141805,97,0.591,0.764,1,-5.484,1,0.0483,0.0383,0.0,0.103,0.478,169.928
+50,Beautiful Mistakes (feat. Megan Thee Stallion),Beautiful Mistakes (feat. Megan Thee Stallion),Maroon 5,2021-03-03,227395,38,0.713,0.676,10,-5.483,1,0.027,0.0377,0.0,0.154,0.721,99.048
+51,Once In A Lifetime,Once In A Lifetime (Acoustic),All Time Low,2021-05-28,189542,33,0.492,0.911,1,-3.891,0,0.113,0.015,0.0,0.345,0.429,168.024
+52,good 4 u,good 4 u,Olivia Rodrigo,2021-05-14,178147,34,0.556,0.661,6,-5.052,0,0.204,0.3,0.0,0.101,0.668,168.56
+53,Love You For A Long Time,Love You For A Long Time,Maggie Rogers,2019-11-21,223120,72,0.707,0.67,9,-6.137,1,0.0323,0.164,0.00283,0.109,0.822,112.993
+54,Just Friends,Just Friends,Virginia To Vegas,2019-05-24,168946,69,0.793,0.714,7,-7.562,1,0.193,0.156,0.0,0.136,0.794,100.036
+55,Panic Room,Panic Room,Au/Ra,2018-02-09,237772,76,0.495,0.426,8,-9.434,1,0.0736,0.152,5.65e-06,0.099,0.0636,97.91
+56,Heat Waves,Dreamland,Glass Animals,2020-08-07,238805,92,0.761,0.525,11,-6.9,1,0.0944,0.44,6.7e-06,0.0921,0.531,80.87
+57,Mr. Perfectly Fine (Taylor’s Version) (From The Vault),Mr. Perfectly Fine (Taylor’s Version) (From The Vault),Taylor Swift,2021-04-07,277591,73,0.661,0.819,11,-6.269,0,0.0519,0.167,0.0,0.0647,0.724,135.937
+58,Pressure,All We Know Is Falling,Paramore,2005-07-26,185733,66,0.509,0.887,2,-3.785,1,0.0958,0.00166,7.98e-06,0.0994,0.661,161.99
+59,Walking On A Dream,Walking On A Dream (10th Anniversary Edition),Empire of the Sun,2008-10-03,198440,83,0.871,0.701,5,-5.594,0,0.0458,0.257,7.52e-06,0.0589,0.716,126.975
+60,Heavy Crown,Trixie Mattel: Moving Parts (The Acoustic Soundtrack),Trixie Mattel,2019-12-20,139626,55,0.524,0.185,1,-12.967,1,0.0324,0.923,5.23e-05,0.139,0.557,90.857
+61,Streets,Hot Pink,Doja Cat,2019-11-07,226986,89,0.749,0.463,11,-8.433,1,0.0842,0.21,0.0382,0.338,0.189,90.035
+62,Pray to God (feat. HAIM),Motion,Calvin Harris,2014-10-31,232226,67,0.606,0.949,7,-2.749,0,0.0414,0.015,2.76e-05,0.109,0.436,120.031
+63,Light On,Heard It In A Past Life,Maggie Rogers,2019-01-18,233880,73,0.657,0.569,2,-6.287,1,0.0542,0.201,1.38e-05,0.126,0.399,102.054
+64,3 AM (feat. Thundercat),Women In Music Pt. III,HAIM,2021-02-19,188906,48,0.647,0.609,6,-7.864,1,0.0497,0.564,0.000195,0.405,0.646,91.011
+65,Gasoline (feat. Taylor Swift),Women In Music Pt. III,HAIM,2021-02-19,193373,59,0.658,0.717,1,-4.257,0,0.0633,0.0846,0.0022,0.12,0.595,133.074
+66,Daphne Blue,tryhard,The Band CAMINO,2019-08-23,182840,63,0.567,0.925,1,-2.775,0,0.0906,0.00239,0.0054,0.348,0.704,118.006
+67,Love Story (Taylor’s Version),Love Story (Taylor’s Version),Taylor Swift,2021-02-12,235766,78,0.626,0.79,2,-4.302,1,0.0311,0.135,3.97e-06,0.0989,0.416,119.082
+68,drivers license,drivers license,Olivia Rodrigo,2021-01-08,242013,35,0.585,0.436,10,-8.761,1,0.0601,0.721,1.31e-05,0.105,0.132,143.874
+69,Potential Breakup Song,Potential Breakup Song,Aly & AJ,2020-12-29,218333,69,0.554,0.899,6,-4.149,0,0.0385,0.000469,0.000365,0.0867,0.556,157.995
+70,Easy (with Kacey Musgraves feat. Mark Ronson),Easy (with Kacey Musgraves feat. Mark Ronson),Troye Sivan,2020-12-10,213571,74,0.581,0.674,8,-7.09,1,0.033,0.00187,3.01e-06,0.128,0.488,143.005
+71,Kiwi,Harry Styles,Harry Styles,2017-05-12,176386,81,0.375,0.93,2,-2.631,1,0.0561,0.00064,0.0,0.318,0.491,147.124
+72,Monsters (feat. blackbear),"Wake Up, Sunshine",All Time Low,2020-04-03,174067,77,0.369,0.845,0,-3.449,0,0.0611,0.0493,0.0,0.416,0.782,78.532
+73,Take Me Home For Christmas,Take Me Home For Christmas,Dan + Shay,2020-11-06,203880,51,0.694,0.769,6,-4.665,1,0.0325,0.163,0.0,0.0976,0.663,93.033
+74,Summer Feelings (feat. Charlie Puth) - From 'SCOOB!' The Album,Summer Feelings (feat. Charlie Puth),Lennon Stella,2020-04-23,160289,72,0.696,0.686,5,-6.113,0,0.0309,0.262,0.0,0.174,0.7,115.982
+75,Starz In Their Eyes - Radio Edit,Starz In Their Eyes (Esingle),Just Jack,2006-01-01,192946,60,0.686,0.803,3,-6.893,1,0.0426,0.000779,0.00181,0.471,0.716,124.11
+76,Everything Is Just a Mess,First Place,The Brook & The Bluff,2019-10-25,283190,65,0.81,0.471,3,-10.148,1,0.0496,0.639,0.00303,0.0774,0.525,111.972
+77,I Love That Sound,I Love That Sound,Michael Bernard Fitzgerald,2020-07-10,182173,42,0.597,0.434,2,-11.263,1,0.0459,0.303,0.0855,0.278,0.393,96.904
+78,WAP (feat. Megan Thee Stallion),WAP (feat. Megan Thee Stallion),Cardi B,2020-08-07,187541,86,0.935,0.454,1,-7.509,1,0.375,0.0194,0.0,0.0824,0.357,133.073
+79,E-GIRLS ARE RUINING MY LIFE!,E-GIRLS ARE RUINING MY LIFE!,CORPSE,2020-09-25,105176,79,0.614,0.937,1,-7.443,1,0.115,0.00161,0.00136,0.103,0.386,84.98
+80,positions,positions,Ariana Grande,2020-10-23,172324,20,0.736,0.802,0,-4.759,1,0.0864,0.468,0.0,0.094,0.675,144.005
+81,Tyler Herro,Tyler Herro,Jack Harlow,2020-10-22,156497,79,0.794,0.756,5,-7.16,0,0.136,0.11,0.0,0.247,0.775,123.066
+82,Bitter,Bitter,FLETCHER,2020-05-13,194749,0,0.724,0.594,6,-7.126,0,0.102,0.393,0.00116,0.0889,0.413,136.002
+83,Wonder,Wonder,Shawn Mendes,2020-10-02,172692,78,0.333,0.637,1,-4.904,0,0.0581,0.131,1.8e-05,0.149,0.132,139.898
+84,This City Remix (feat. Anne-Marie),This City Remix (feat. Anne-Marie),Sam Fischer,2020-05-29,197328,64,0.458,0.319,11,-7.954,1,0.0522,0.812,0.0,0.0817,0.575,77.542
+85,Must Have Done Something Right,Five Score and Seven Years Ago,Relient K,2007-03-06,199866,5,0.563,0.959,1,-3.036,1,0.0421,0.0166,0.0,0.13,0.81,137.942
+86,Who I Am Hates Who I've Been,Mmhmm,Relient K,2004-11-02,232266,9,0.398,0.902,3,-3.518,1,0.0861,0.00289,0.0,0.066,0.491,166.823
+87,Be My Escape,Mmhmm,Relient K,2004-11-02,240453,16,0.554,0.864,9,-5.062,1,0.0394,0.00605,0.0,0.132,0.299,112.523
+88,Your Man,Nectar,Joji,2020-09-24,163758,67,0.785,0.818,7,-8.711,1,0.099,0.624,0.149,0.149,0.0503,117.98
+89,Fade Away,Fade Away,Yoke Lore,2020-08-07,210385,40,0.5,0.569,0,-8.089,1,0.0333,0.0945,0.0385,0.14,0.243,116.036
+90,Jump into the Fog,The Wombats Proudly Present... This Modern Glitch,The Wombats,2011-04-25,232341,42,0.462,0.897,4,-7.168,1,0.0516,0.00214,0.0,0.254,0.671,157.948
+91,I Think I'm OKAY (with YUNGBLUD & Travis Barker),Hotel Diablo,Machine Gun Kelly,2019-07-05,169397,82,0.628,0.744,7,-4.718,1,0.0379,0.0257,0.0,0.313,0.277,119.921
+92,bloody valentine,bloody valentine,Machine Gun Kelly,2020-05-01,205015,1,0.52,0.856,2,-4.228,1,0.0806,0.000193,0.0,0.157,0.47,160.083
+93,slow summer,slow summer,Zachary Knowles,2020-08-14,168782,61,0.658,0.431,5,-8.902,1,0.0437,0.817,8.28e-06,0.21,0.464,90.003
+94,my ex's best friend (with blackbear),my ex's best friend (with blackbear),Machine Gun Kelly,2020-08-07,138970,1,0.728,0.685,5,-5.096,0,0.0433,0.00391,0.0,0.152,0.33,124.934
+95,Familiar,Citizen of Glass,Agnes Obel,2016-10-21,235988,0,0.564,0.419,4,-12.254,1,0.0306,0.921,0.0202,0.108,0.233,137.412
+96,Mistakes of My Youth,Mistakes of My Youth,Kwesi,2019-08-22,163200,45,0.78,0.492,0,-6.783,1,0.291,0.261,3.18e-06,0.13,0.331,149.856
+97,Acid Dreams,Acid Dreams,MAX,2019-07-19,183930,63,0.817,0.509,0,-4.17,1,0.0839,0.146,2.53e-05,0.111,0.77,99.988
+98,i think too much,i think too much,Christian French,2020-04-17,202779,67,0.675,0.695,7,-7.859,0,0.0753,0.00383,2.95e-05,0.0637,0.662,92.025
+99,I Should've Told You,I Should've Told You,Fiji Blue,2020-07-09,197522,12,0.725,0.66,8,-7.206,1,0.0663,0.465,0.000292,0.0848,0.456,117.009
+100,Ordinary People,Ordinary People,Blake Rose,2020-06-26,253597,66,0.363,0.12,7,-11.662,1,0.0358,0.899,2.34e-05,0.162,0.176,71.024
+101,My Oasis (feat. Burna Boy),My Oasis (feat. Burna Boy),Sam Smith,2020-07-30,179916,70,0.691,0.474,10,-8.742,0,0.0583,0.569,0.000626,0.099,0.381,143.783
+102,Love Somebody,Without You,Lauv,2020-07-10,142773,69,0.465,0.468,7,-7.799,1,0.134,0.262,0.0,0.0639,0.373,83.366
+103,"WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) - Remix","WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]",Jack Harlow,2020-06-24,227478,81,0.904,0.723,11,-5.224,0,0.26,0.0631,0.0,0.185,0.835,145.013
+104,Life's A Mess (feat. Halsey),Legends Never Die,Juice WRLD,2020-07-10,202193,1,0.63,0.446,1,-8.9,1,0.0351,0.337,0.0,0.166,0.177,143.078
+105,Almost (Sweet Music),Almost (Sweet Music),Hozier,2019-01-16,217480,0,0.384,0.689,7,-5.598,1,0.197,0.0217,2.24e-06,0.204,0.702,179.823
+106,Wait for It,Hamilton (Original Broadway Cast Recording),Lin-Manuel Miranda,2015-09-25,193749,73,0.543,0.473,6,-9.638,1,0.157,0.124,4.04e-06,0.0922,0.519,86.534
+107,Loving Is Easy,Loving Is Easy,Rex Orange County,2017-10-11,155720,80,0.756,0.609,3,-7.927,1,0.0544,0.217,0.00474,0.096,0.537,117.023
+108,This City,This City,Sam Fischer,2018-01-17,194853,0,0.602,0.377,11,-6.213,1,0.0446,0.731,0.0,0.0808,0.518,73.877
+109,Crazy Girls,Crazy Girls,Abigail Barlow,2019-12-27,190000,38,0.697,0.301,7,-13.901,1,0.2,0.234,0.0,0.0768,0.209,94.922
+110,Black (feat. A$AP Ferg),Black (feat. A$AP Ferg),Buddy,2018-03-08,234306,47,0.881,0.658,11,-6.845,0,0.403,0.38,0.0,0.0936,0.836,155.989
+111,"Don't Shoot (feat. Rick Ross, Fabolous, Diddy, 2 Chainz, Wale, DJ Khaled, Swizz Beatz, Yo Gotti, Currensy, Problem, King Pharaoh, TGT)","Don't Shoot (feat. Rick Ross, 2 Chainz, Diddy, Fabolous, Wale, DJ Khaled, Swizz Beatz, Yo Gotti, Currensy, Problem, King Pharaoh & TGT) - Single",The Game,2014-08-27,367151,41,0.699,0.491,1,-9.911,1,0.218,0.0756,0.0,0.61,0.24,81.095
+112,Don’t Wanna,Don't Wanna,HAIM,2020-05-21,201786,38,0.762,0.498,8,-5.294,1,0.0481,0.161,9.55e-06,0.172,0.871,107.049
+113,Nine in the Afternoon - Single Mix,Pretty. Odd.,Panic! At The Disco,2008-03-21,191560,68,0.405,0.689,10,-5.75,1,0.0365,0.0843,0.0,0.207,0.397,155.189
+114,Bad Decisions,The New Abnormal,The Strokes,2020-04-10,293360,69,0.374,0.922,0,-3.4,1,0.056,0.0135,0.204,0.28,0.393,153.217
+115,Physical,Future Nostalgia,Dua Lipa,2020-03-27,193829,80,0.647,0.844,0,-3.756,1,0.0457,0.0137,0.000658,0.102,0.746,146.967
+116,Love Like That,~how i'm feeling~ (the extras),Lauv,2019-12-19,184556,0,0.679,0.481,3,-9.045,1,0.0593,0.208,1.02e-05,0.284,0.486,80.011
+117,Be Kind (with Halsey),Be Kind (with Halsey),Marshmello,2020-05-01,172761,82,0.63,0.633,4,-7.088,1,0.0457,0.00776,0.0,0.0541,0.452,93.995
+118,Mystery of Love,Call Me by Your Name (Original Motion Picture Soundtrack),Various Artists,2017-11-03,248964,64,0.365,0.273,4,-16.526,0,0.038,0.94,0.431,0.109,0.238,132.285
+119,Futile Devices (Doveman Remix),Call Me by Your Name (Original Motion Picture Soundtrack),Various Artists,2017-11-03,135443,57,0.462,0.187,4,-19.991,1,0.0304,0.954,0.847,0.0985,0.252,140.096
+120,Visions of Gideon,Call Me by Your Name (Original Motion Picture Soundtrack),Various Artists,2017-11-03,247808,63,0.252,0.314,5,-18.197,0,0.0407,0.942,0.676,0.0892,0.2,75.056
+121,Sweetest Thing,Sweetest Thing,Allman Brown,2017-01-18,218502,62,0.546,0.411,2,-9.308,1,0.0475,0.701,9.73e-05,0.0955,0.528,79.785
+122,HIM,The Thrill Of It All (Special Edition),Sam Smith,2017-11-03,190087,52,0.575,0.248,5,-11.115,0,0.0299,0.587,5.39e-05,0.24,0.328,85.05
+123,River,Coming Home,Leon Bridges,2015-06-15,238560,2,0.658,0.179,8,-10.866,1,0.0448,0.689,0.0,0.17,0.191,128.128
+124,Sorrows,Sorrows,BLESSED,2016-07-06,230000,52,0.698,0.85,10,-5.173,0,0.0285,0.00194,0.00592,0.118,0.194,120.029
+125,The Flood,In Deepest Blue (Bonus Track Version),Joshua Hyslop,2016-10-21,261640,61,0.577,0.446,6,-11.343,1,0.0313,0.554,0.0782,0.116,0.262,81.005
+126,Callaita,Callaita,Bad Bunny,2019-05-31,250533,87,0.61,0.624,2,-4.773,1,0.309,0.6,2.12e-06,0.243,0.244,176.169
+127,Lonely Eyes,~how i'm feeling~,Lauv,2020-03-06,196493,63,0.586,0.499,2,-7.005,1,0.0267,0.0418,0.0,0.0994,0.369,95.012
+128,Believed,~how i'm feeling~,Lauv,2020-03-06,169760,54,0.796,0.519,11,-8.09,0,0.0511,0.0758,0.0,0.444,0.492,149.929
+129,Feelings,~how i'm feeling~,Lauv,2020-03-06,189906,75,0.7,0.392,9,-8.911,1,0.033,0.0578,0.0,0.0802,0.25,103.044
+130,Canada (feat. Alessia Cara),~how i'm feeling~,Lauv,2020-03-06,184008,65,0.635,0.262,9,-12.782,1,0.0391,0.626,0.0,0.145,0.352,93.237
+131,Tell My Mama,~how i'm feeling~,Lauv,2020-03-06,166706,54,0.88,0.498,0,-7.033,1,0.0524,0.19,0.0,0.108,0.489,139.972
+132,Julia,~how i'm feeling~,Lauv,2020-03-06,218000,63,0.458,0.13,11,-14.575,1,0.0805,0.907,0.0,0.164,0.333,162.311
+133,A Tu Merced,YHLQMDLG,Bad Bunny,2020-02-29,175918,92,0.86,0.791,0,-4.784,1,0.0568,0.169,0.000106,0.106,0.887,92.023
+134,La Santa,YHLQMDLG,Bad Bunny,2020-02-29,206420,90,0.744,0.868,1,-4.524,1,0.047,0.0326,0.0,0.0822,0.586,93.037
+135,Getaway Green,Getaway Green/Sleeping In/Some Kind Of Disaster,All Time Low,2020-03-17,167041,0,0.556,0.899,4,-3.372,1,0.0711,0.00251,0.0,0.08,0.831,102.056
+136,Young & Alive,Young & Alive,Bazzi,2020-03-05,160465,72,0.716,0.563,3,-5.486,1,0.0425,0.326,0.0,0.119,0.495,86.005
+137,Gaslighter,Gaslighter,The Chicks,2020-03-04,203466,52,0.681,0.728,2,-7.317,1,0.0513,0.00624,0.0,0.055,0.693,131.017
+138,Baby Come Back,'70s Pop #1's,Various Artists,2007-01-01,214066,58,0.648,0.574,5,-11.12,0,0.106,0.051,0.0,0.12,0.557,156.73
+139,Modern Loneliness,~how i'm feeling~,Lauv,2020-02-20,252337,0,0.702,0.508,8,-7.105,1,0.035,0.144,0.0,0.108,0.143,82.008
+140,Sleeping In,Sleeping In/Some Kind Of Disaster,All Time Low,2020-02-20,180599,0,0.656,0.955,7,-3.842,1,0.0462,0.00865,0.0,0.342,0.558,105.031
+141,3am,Manic,Halsey,2020-01-17,234858,63,0.385,0.871,0,-4.604,0,0.0795,0.00906,0.0,0.579,0.538,189.76
+142,Relationship,The Good & The Bad,Anthony Ramos,2019-10-25,176493,47,0.76,0.562,0,-6.916,1,0.203,0.147,0.0,0.134,0.618,98.921
+143,Aventura,Épico,Lunay,2019-10-25,217129,72,0.729,0.726,5,-3.208,1,0.0422,0.223,0.0,0.101,0.876,92.025
+144,LOYAL (feat. Drake and Bad Bunny) - Remix,LOYAL (feat. Drake and Bad Bunny) [Remix],PARTYNEXTDOOR,2020-02-07,281119,63,0.877,0.529,0,-6.235,0,0.0461,0.479,0.00159,0.094,0.422,104.984
+145,No Me Conoce - Remix,Famouz,Jhay Cortez,2019-05-24,309120,84,0.806,0.786,10,-3.831,0,0.0741,0.145,0.0,0.0935,0.58,91.973
+146,Vete,Vete,Bad Bunny,2019-11-21,192024,84,0.886,0.672,1,-4.394,1,0.188,0.0363,8.78e-06,0.101,0.526,91.976
+147,LA CANCIÓN,OASIS,J Balvin,2019-06-28,242573,90,0.754,0.646,7,-5.795,1,0.317,0.152,1.85e-05,0.108,0.429,176.089
+148,Morado,Morado,J Balvin,2020-01-09,200666,72,0.881,0.696,11,-3.838,0,0.0797,0.137,4.13e-05,0.0927,0.781,97.002
+149,Chantaje (feat. Maluma),El Dorado,Shakira,2017-05-26,195840,80,0.852,0.773,8,-2.921,0,0.0776,0.187,3.05e-05,0.159,0.907,102.034
+150,Tutu - Remix,Tutu (Remix),Camilo,2019-10-15,164191,66,0.731,0.763,0,-3.6,1,0.0433,0.385,7.21e-06,0.0753,0.865,154.116
+151,Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground),Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground),Shakira,2010-05-07,202626,82,0.766,0.873,11,-6.381,0,0.143,0.00627,0.0,0.0764,0.743,126.988
+152,Hips Don't Lie (feat. Wyclef Jean),"Oral Fixation, Vol. 2 (Expanded Edition)",Shakira,2005-11-28,218093,87,0.778,0.824,10,-5.892,0,0.0707,0.284,0.0,0.405,0.758,100.024
+153,Me Gusta,Me Gusta,Shakira,2020-01-13,190570,73,0.775,0.696,1,-5.184,0,0.0681,0.0559,0.00184,0.157,0.775,92.007
+154,Evergreen,Dreaming of David,Ryan Beatty,2020-01-31,224347,58,0.586,0.563,10,-8.366,1,0.054,0.25,0.000687,0.113,0.283,82.791
+155,BEST INTEREST,BEST INTEREST,"Tyler, The Creator",2020-01-25,127921,82,0.596,0.575,11,-8.325,0,0.0514,0.0861,0.000153,0.334,0.34,98.265
+156,Some Kind Of Disaster,Some Kind Of Disaster,All Time Low,2020-01-21,223994,0,0.55,0.837,11,-5.411,1,0.044,0.0104,0.0,0.306,0.637,89.821
+157,I.F.L.Y.,Soul Searching,Bazzi,2019-08-09,165714,80,0.812,0.519,2,-4.823,1,0.0385,0.379,0.0,0.13,0.554,104.954
+158,Look At Her Now,Rare,Selena Gomez,2020-01-10,162595,71,0.753,0.564,10,-7.908,0,0.252,0.114,0.0273,0.359,0.55,77.342
+159,Good News,Good News,Mac Miller,2020-01-09,342040,62,0.794,0.32,1,-12.92,0,0.173,0.853,0.134,0.112,0.241,174.088
+160,You should be sad,You should be sad,Halsey,2020-01-10,205473,0,0.591,0.585,2,-6.35,1,0.0277,0.143,0.0,0.109,0.324,110.94
+161,Life Is Good (feat. Drake),Life Is Good (feat. Drake),Future,2020-01-10,237735,83,0.676,0.609,2,-5.831,0,0.481,0.0706,0.0,0.152,0.508,142.037
+162,"Fire On Fire - From ""Watership Down""","Fire On Fire (From ""Watership Down"")",Sam Smith,2018-12-21,246735,73,0.584,0.407,1,-7.356,0,0.046,0.476,0.0,0.18,0.341,115.124
+163,17,Inner Monologue Part 2,Julia Michaels,2019-06-28,182800,68,0.774,0.466,4,-6.869,1,0.0433,0.458,0.0,0.111,0.396,97.975
+164,Adore You,Adore You,Harry Styles,2019-12-06,207133,73,0.676,0.771,8,-3.675,1,0.0483,0.0237,7e-06,0.102,0.569,99.048
+165,Changes,~how i'm feeling~,Lauv,2020-01-02,160186,0,0.532,0.455,2,-8.366,1,0.156,0.452,0.0,0.237,0.204,148.182
+166,Sad Forever,~how i'm feeling~,Lauv,2020-01-02,203507,0,0.527,0.538,5,-7.434,1,0.104,0.468,0.0,0.0825,0.389,117.319
+167,Hell Bound - Ad 01,Hell Bound (Ad 01),Vince Staples,2019-12-19,131697,50,0.882,0.721,2,-7.209,1,0.0539,0.0437,0.0,0.0789,0.845,149.013
+168,Mean It - stripped,~how i'm feeling~ (the extras),Lauv,2019-12-20,241800,0,0.538,0.228,7,-10.837,1,0.0334,0.746,0.0,0.126,0.517,90.912
+169,Finally // beautiful stranger,Finally // beautiful stranger,Halsey,2019-12-06,221095,66,0.626,0.55,9,-5.105,0,0.029,0.051,0.0,0.118,0.123,133.976
+170,Blinding Lights,Blinding Lights,The Weeknd,2019-11-29,201573,22,0.513,0.796,1,-4.075,1,0.0629,0.00147,0.000209,0.0938,0.345,171.017
+171,Late To The Party,Pageant Material,Kacey Musgraves,2015-06-23,217880,49,0.753,0.454,1,-9.074,1,0.0258,0.692,1.21e-06,0.0973,0.685,105.997
+172,Jolene,Jolene (Expanded Edition),Dolly Parton,1974-01-01,161533,73,0.674,0.537,1,-10.971,0,0.0363,0.566,0.0,0.131,0.809,110.578
+173,Glittery - From The Kacey Musgraves Christmas Show,The Kacey Musgraves Christmas Show,Kacey Musgraves,2019-11-29,143467,50,0.509,0.307,1,-9.616,0,0.0307,0.874,0.0,0.701,0.392,85.471
+174,Present Without A Bow - From The Kacey Musgraves Christmas Show,The Kacey Musgraves Christmas Show,Kacey Musgraves,2019-11-29,220367,30,0.682,0.472,7,-7.603,0,0.0458,0.228,0.0,0.965,0.442,75.817
+175,Heartless,Heartless,The Weeknd,2019-11-27,200080,2,0.531,0.75,10,-5.831,0,0.111,0.00632,7.6e-05,0.117,0.198,169.954
+176,1950,1950,King Princess,2018-02-23,225133,77,0.6,0.535,4,-7.043,1,0.107,0.648,4.7e-06,0.162,0.269,71.912
+177,Hallelujah,Hallelujah,HAIM,2019-11-18,190933,0,0.257,0.379,8,-6.876,1,0.0304,0.812,8.46e-05,0.107,0.533,188.355
+178,LOYAL (feat. Drake),LOYAL (feat. Drake),PARTYNEXTDOOR,2019-11-22,197973,57,0.866,0.53,0,-6.347,0,0.0495,0.517,0.00159,0.0946,0.203,104.952
+179,Lights Up,Watermelon Sugar,Harry Styles,2019-11-17,172213,54,0.575,0.621,10,-8.165,0,0.032,0.0392,0.0045,0.141,0.27,101.987
+180,Slide,Slide,H.E.R.,2019-09-27,238321,70,0.832,0.469,10,-9.141,0,0.339,0.0807,8.26e-06,0.207,0.197,97.023
+181,Juicy,Juicy,Doja Cat,2019-08-15,202333,63,0.786,0.658,0,-2.61,1,0.0661,0.0856,0.0,0.0689,0.458,170.037
+182,Sims,~how i'm feeling~,Lauv,2019-11-14,155075,0,0.529,0.398,2,-8.238,1,0.388,0.643,0.0,0.0637,0.567,99.714
+183,Lover (Remix) [feat. Shawn Mendes],Lover (Remix) [feat. Shawn Mendes],Taylor Swift,2019-11-13,221306,73,0.448,0.603,7,-7.176,1,0.064,0.433,0.0,0.0862,0.422,205.272
+184,Up All Night,Up All Night,Khalid,2019-11-14,157220,70,0.665,0.712,1,-7.536,1,0.0527,0.00103,0.00333,0.102,0.669,93.992
+185,everything i wanted,everything i wanted,Billie Eilish,2019-11-13,245425,86,0.704,0.225,6,-14.454,0,0.0994,0.902,0.657,0.106,0.243,120.006
+186,Mean It,~how i'm feeling~,Lauv,2019-11-14,232853,2,0.746,0.45,7,-8.543,1,0.0872,0.0407,0.0,0.172,0.336,95.998
+187,Sweet Emotion,Listen,The Kooks,2014-01-01,308569,63,0.764,0.829,1,-5.261,1,0.0711,0.0459,0.000184,0.104,0.606,98.02
+188,So Good Looking,So Good Looking,The Kooks,2019-06-21,203285,49,0.545,0.833,7,-4.6,1,0.153,0.0047,1.42e-05,0.0745,0.741,149.937
+189,Seaside,Inside In / Inside Out,The Kooks,2006-01-01,99226,53,0.616,0.41,1,-8.523,1,0.0413,0.732,0.0,0.123,0.324,129.498
+190,Junk Of The Heart (Happy),Junk Of The Heart,The Kooks,2011-01-01,187253,69,0.604,0.894,2,-5.0,1,0.037,0.0212,0.0,0.0299,0.901,145.017
+191,Bad Habit,Listen,The Kooks,2014-01-01,221413,68,0.733,0.882,0,-4.199,0,0.0389,0.051,9.92e-06,0.131,0.854,123.071
+192,She Moves In Her Own Way,Inside In / Inside Out,The Kooks,2006-01-01,169306,59,0.431,0.81,7,-5.379,1,0.066,0.276,0.0,0.0906,0.795,76.412
+193,Naive,Inside In / Inside Out,The Kooks,2006-01-01,203506,66,0.547,0.816,8,-6.165,0,0.0624,0.0688,0.0,0.127,0.722,102.765
+194,I Wanna Be Yours,AM,Arctic Monkeys,2013-09-09,183956,86,0.464,0.417,0,-9.345,0,0.0256,0.136,0.022,0.0974,0.479,67.528
+195,One For The Road,AM,Arctic Monkeys,2013-09-09,206051,70,0.415,0.668,0,-6.849,1,0.036,0.212,0.0615,0.27,0.842,180.048
+196,Arabella,AM,Arctic Monkeys,2013-09-09,207356,79,0.579,0.558,2,-6.986,1,0.0895,0.0202,1.26e-06,0.212,0.506,179.949
+197,Fluorescent Adolescent,Favourite Worst Nightmare (Standard Version),Arctic Monkeys,2007-04-24,173493,72,0.646,0.813,6,-5.29,0,0.0288,0.00178,2.26e-05,0.144,0.821,112.115
+198,Love It If We Made It,A Brief Inquiry Into Online Relationships,The 1975,2018-11-30,252925,72,0.472,0.745,4,-5.297,1,0.0356,0.000607,2.74e-05,0.0957,0.0631,180.06
+199,Frail State Of Mind,Frail State Of Mind,The 1975,2019-10-24,234811,48,0.566,0.676,9,-6.498,1,0.0383,0.0147,0.00672,0.0733,0.0492,127.973
+200,It's Not Living (If It's Not With You),A Brief Inquiry Into Online Relationships,The 1975,2018-11-30,248335,75,0.618,0.837,1,-5.338,1,0.0304,0.000254,0.000378,0.0618,0.526,121.227
+201,Somebody Else,"I like it when you sleep, for you are so beautiful yet so unaware of it",The 1975,2016-02-26,347520,76,0.61,0.788,0,-5.724,1,0.0585,0.195,0.0142,0.153,0.472,101.045
+202,July,July,Noah Cyrus,2019-07-31,156106,2,0.708,0.186,9,-8.953,0,0.0422,0.868,0.0,0.0779,0.321,72.541
+203,If the World Was Ending (feat. Julia Michaels),If the World Was Ending (feat. Julia Michaels),JP Saxe,2019-10-17,208687,83,0.464,0.473,1,-10.086,1,0.129,0.866,0.0,0.109,0.604,75.801
+204,Push My Luck,World War Joy...Push My Luck,The Chainsmokers,2019-11-08,181844,0,0.584,0.643,2,-6.415,1,0.0395,0.288,0.0,0.186,0.53,90.036
+205,Nights,Blonde,Frank Ocean,2016-08-20,307151,83,0.466,0.548,5,-9.362,0,0.118,0.42,1.01e-06,0.113,0.423,89.815
+206,Pink + White,Blonde,Frank Ocean,2016-08-20,184516,84,0.544,0.552,9,-7.45,1,0.0991,0.67,4.57e-05,0.415,0.554,159.738
+207,Chanel,Chanel,Frank Ocean,2017-03-10,210285,84,0.776,0.503,0,-5.732,0,0.237,0.874,0.0,0.112,0.473,110.134
+208,THRU THE NIGHT (feat. Bryson Tiller),Confetti,Jack Harlow,2019-09-20,128409,74,0.88,0.58,5,-5.032,0,0.0438,0.016,3.83e-06,0.0936,0.754,124.003
+209,Girls Love Beyoncé (feat. James Fauntleroy),Care Package,Drake,2019-08-02,225011,64,0.619,0.489,11,-11.25,0,0.46,0.782,0.0,0.106,0.328,126.046
+210,Make It Right (feat. Lauv) [EDM Remix],Make It Right (feat. Lauv) [EDM Remix],BTS,2019-11-01,246322,14,0.648,0.741,7,-6.655,1,0.313,0.00351,0.0,0.0932,0.238,106.001
+211,Like It's Christmas,Like It's Christmas,Jonas Brothers,2019-11-08,200880,60,0.725,0.571,1,-6.007,1,0.102,0.0183,0.0,0.0519,0.61,146.035
+212,"Hello, Brooklyn",Nothing Personal (Deluxe Version),All Time Low,2009-07-07,209813,0,0.495,0.893,9,-3.203,1,0.0705,0.0725,0.0,0.0644,0.73,148.015
+213,Sick Little Games,Nothing Personal (Deluxe Version),All Time Low,2009-07-07,216013,0,0.483,0.776,11,-4.416,0,0.0334,0.00244,0.0,0.318,0.38,96.956
+214,Peace of Mind,My Own Best Friend / Peace of Mind,Walker,2019-10-29,278625,0,0.569,0.301,2,-13.839,1,0.124,0.714,0.00768,0.108,0.234,86.047
+215,Make It Right (feat. Lauv),Make It Right (feat. Lauv),BTS,2019-10-18,226321,40,0.584,0.685,7,-7.811,1,0.425,0.0304,0.0,0.189,0.345,97.551
+216,Strawberries & Cigarettes,Strawberries & Cigarettes,Troye Sivan,2018-03-16,201538,87,0.578,0.537,9,-8.676,1,0.0832,0.162,0.0,0.076,0.25,83.909
+217,Dance To This (feat. Ariana Grande),Bloom,Troye Sivan,2018-08-31,231846,73,0.736,0.756,11,-7.099,1,0.047,0.00632,0.00577,0.106,0.712,117.016
+218,Kissing Other People,Kissing Other People,Lennon Stella,2019-11-01,161626,0,0.699,0.663,2,-5.697,1,0.0891,0.568,3.83e-06,0.13,0.379,94.042
+219,Trampoline (with ZAYN),Trampoline (with ZAYN),SHAED,2019-09-26,184280,74,0.619,0.459,7,-5.782,0,0.0334,0.56,0.0,0.137,0.498,126.803
+220,Don't Start Now,Don't Start Now,Dua Lipa,2019-10-31,183290,85,0.794,0.793,11,-4.521,0,0.0842,0.0125,0.0,0.0952,0.677,123.941
+221,Now I'm In It,Now I'm In It,HAIM,2019-10-30,204280,0,0.717,0.708,4,-9.489,1,0.0627,0.37,0.000116,0.161,0.209,105.019
+222,I Feel Love,I Feel Love,Sam Smith,2019-11-01,254453,69,0.719,0.708,0,-7.418,1,0.0417,0.00645,0.201,0.064,0.256,126.015
+223,Good as Hell (feat. Ariana Grande) - Remix,Good as Hell (feat. Ariana Grande) [Remix],Lizzo,2016-01-01,159011,73,0.668,0.892,5,-3.001,0,0.0645,0.298,0.0,0.735,0.478,95.927
+224,Lose You To Love Me,Lose You To Love Me,Selena Gomez,2019-10-23,206458,28,0.505,0.34,4,-9.005,1,0.0438,0.576,0.0,0.21,0.0916,101.993
+225,if we never met,if we never met,John K,2019-04-26,144426,72,0.958,0.376,8,-7.063,1,0.0523,0.171,0.0,0.127,0.331,107.964
+226,Selfish,Selfish,Emma Jayne,2019-09-04,211389,18,0.649,0.67,8,-8.337,1,0.0366,0.196,0.00421,0.311,0.746,82.514
+227,California Cosmo,California Cosmo,Eddie Island,2016-12-11,232034,49,0.448,0.646,9,-5.617,1,0.0461,0.0865,0.0,0.0852,0.523,90.53
+228,Lie To Me,Lie To Me,5 Seconds of Summer,2018-12-21,149877,0,0.611,0.52,0,-5.445,1,0.0346,0.0132,0.0,0.105,0.771,159.927
+229,The Bones - with Hozier,The Bones (with Hozier),Maren Morris,2019-10-04,197298,76,0.561,0.597,11,-6.0,0,0.0405,0.286,0.0,0.0979,0.355,76.826
+230,Lonely,Lonely,Diplo,2019-09-27,139813,1,0.738,0.717,1,-5.121,1,0.0573,0.062,0.0,0.205,0.5,98.047
+231,Feelings,Feelings,Lauv,2019-09-19,189613,1,0.694,0.466,9,-6.758,1,0.0384,0.0934,0.0,0.098,0.246,103.018
+232,hot girl bummer,hot girl bummer,blackbear,2019-08-23,185093,7,0.778,0.559,6,-7.109,0,0.0776,0.128,0.0,0.399,0.678,129.989
+233,Doll,The Colour And The Shape,Foo Fighters,1997-05-20,83800,56,0.491,0.263,7,-11.793,1,0.0305,0.52,0.182,0.257,0.195,119.231
+234,All My Life,One By One (Expanded Edition),Foo Fighters,2002-10-22,263440,80,0.577,0.604,5,-5.703,1,0.0495,0.000218,0.000579,0.477,0.637,167.719
+235,Learn to Fly,There Is Nothing Left To Lose,Foo Fighters,1999-11-02,235293,82,0.465,0.919,4,-4.025,1,0.0408,1.83e-05,2.07e-05,0.262,0.537,135.997
+236,Best of You,In Your Honor,Foo Fighters,2005-06-14,255626,82,0.366,0.94,1,-5.119,0,0.0696,0.000769,9.42e-05,0.188,0.369,130.198
+237,The Pretender,"Echoes, Silence, Patience & Grace",Foo Fighters,2007-09-25,269373,83,0.433,0.959,9,-4.04,1,0.0431,0.000917,0.0,0.028,0.365,172.984
+238,Graveyard,Graveyard,Halsey,2019-09-13,181805,2,0.667,0.583,11,-5.127,0,0.0747,0.231,4.48e-05,0.181,0.187,92.043
+239,Make It Better (feat. Smokey Robinson),Ventura,Anderson .Paak,2019-04-12,219332,69,0.676,0.56,4,-6.024,0,0.0643,0.0112,0.00403,0.137,0.551,178.555
+240,Carry Me Away,Carry Me Away,John Mayer,2019-09-06,159134,7,0.674,0.711,4,-6.671,1,0.0286,0.00894,0.163,0.1,0.742,119.987
+241,Circles,Circles,Post Malone,2019-08-30,214906,3,0.704,0.758,0,-3.537,1,0.0402,0.233,0.00144,0.0924,0.534,120.003
+242,Coconut Oil,Coconut Oil,Lizzo,2016-10-07,225190,52,0.58,0.752,0,-5.049,1,0.303,0.114,0.0,0.144,0.512,138.15
+243,Like a Girl,Cuz I Love You (Deluxe),Lizzo,2019-05-03,184857,43,0.694,0.807,2,-3.183,1,0.0888,0.0167,0.0,0.547,0.797,144.031
+244,Exactly How I Feel (feat. Gucci Mane),Cuz I Love You (Deluxe),Lizzo,2019-05-03,143190,38,0.872,0.718,6,-3.238,0,0.229,0.114,0.0,0.333,0.833,112.981
+245,Lingerie,Cuz I Love You (Deluxe),Lizzo,2019-05-03,201618,36,0.681,0.488,0,-5.314,1,0.152,0.215,0.000766,0.11,0.628,132.077
+246,Soulmate,Cuz I Love You (Deluxe),Lizzo,2019-05-03,175234,40,0.693,0.849,7,-4.517,1,0.0892,0.00466,0.00127,0.503,0.767,99.021
+247,Boys,Cuz I Love You (Deluxe),Lizzo,2019-05-03,172630,64,0.891,0.587,6,-4.281,0,0.115,0.00317,0.000154,0.0487,0.753,120.029
+248,Shy,Good Thing,Leon Bridges,2018-05-04,194493,62,0.803,0.498,8,-5.389,0,0.0634,0.279,1.33e-06,0.161,0.832,92.032
+249,Norf Norf,Summertime '06,Vince Staples,2015-06-30,183160,71,0.925,0.549,7,-6.572,1,0.0656,0.396,0.000154,0.11,0.0904,100.014
+250,Big Fish,Big Fish Theory,Vince Staples,2017-06-23,198133,64,0.898,0.547,3,-5.707,0,0.313,0.484,1.04e-05,0.37,0.763,100.01
+251,Candy Paint,Candy Paint,Post Malone,2017-10-20,229573,0,0.765,0.688,4,-5.566,1,0.0841,0.633,0.0,0.0734,0.434,90.013
+252,i'm so tired... - Stripped - Live in LA,i'm so tired... (Stripped - Live in LA),Lauv,2019-03-14,187675,0,0.491,0.196,11,-8.455,1,0.0465,0.973,0.0,0.0986,0.364,93.818
+253,Teeth,Teeth,5 Seconds of Summer,2019-08-21,204887,1,0.755,0.448,3,-2.993,0,0.0405,0.0508,3.87e-06,0.11,0.431,139.028
+254,Where Were You In The Morning? - Remix,The Album (Remixes),Shawn Mendes,2018-12-21,190706,39,0.743,0.695,5,-6.026,0,0.233,0.0817,0.0,0.308,0.668,92.98
+255,Lover,Lover,Taylor Swift,2019-08-16,221306,11,0.359,0.543,7,-7.582,1,0.0915,0.492,1.57e-05,0.118,0.453,68.504
+256,The Wind,Modern Animal,Magic City Hippies,2019-08-16,195093,48,0.48,0.594,6,-11.746,1,0.0439,0.563,0.185,0.683,0.687,93.012
+257,&burn (with Vince Staples),&burn (with Vince Staples),Billie Eilish,2017-12-15,179015,67,0.776,0.379,9,-9.351,0,0.331,0.213,0.00175,0.0969,0.346,82.531
+258,La La Land (feat. YG),La La Land (feat. YG),Bryce Vine,2019-03-01,177117,52,0.781,0.469,1,-5.107,0,0.0569,0.223,0.0,0.19,0.412,98.013
+259,Never Go Back,Never Go Back,Dennis Lloyd,2019-02-15,175424,68,0.421,0.653,9,-4.85,0,0.398,0.0135,0.0,0.114,0.733,78.6
+260,All For Us - from the HBO Original Series Euphoria,All For Us (from the HBO Original Series Euphoria),Labrinth,2019-08-04,192986,90,0.348,0.652,3,-7.145,1,0.0931,0.0165,0.000264,0.33,0.172,70.956
+261,"fuck, i'm lonely","fuck, i'm lonely",Lauv,2019-08-02,198973,3,0.806,0.558,9,-6.46,1,0.0683,0.482,0.0,0.0618,0.678,95.016
+262,boyfriend (with Social House),boyfriend,Ariana Grande,2019-08-02,186106,82,0.4,0.795,10,-3.731,0,0.461,0.119,0.0,0.159,0.702,190.097
+263,Haunt You,Haunt You,Social House,2019-06-14,198266,60,0.658,0.458,0,-8.738,1,0.0785,0.371,0.0,0.0958,0.29,91.914
+264,Magic In The Hamptons (feat. Lil Yachty),Magic In The Hamptons (feat. Lil Yachty),Social House,2018-06-08,164640,80,0.769,0.479,1,-5.339,1,0.0385,0.66,0.0,0.0914,0.803,96.051
+265,Right Back (feat. A Boogie Wit Da Hoodie),Right Back (feat. A Boogie Wit Da Hoodie),Khalid,2019-08-13,254999,68,0.786,0.428,5,-10.011,0,0.31,0.0933,1.1e-06,0.156,0.556,97.001
+266,Summer Girl - Bonus Track,Summer Girl (Bonus Track),HAIM,2019-07-31,205026,0,0.512,0.544,1,-7.953,0,0.226,0.356,0.0159,0.169,0.616,99.927
+267,Hex,Hex EP,Ark Patrol,2016-03-10,215816,55,0.539,0.681,10,-6.476,0,0.0324,0.00437,0.727,0.105,0.123,98.043
+268,The Archer,The Archer,Taylor Swift,2019-07-23,211280,12,0.277,0.573,0,-9.374,1,0.0407,0.12,0.00556,0.0663,0.17,124.341
+269,How Do You Sleep?,How Do You Sleep?,Sam Smith,2019-07-19,202204,79,0.477,0.682,1,-4.931,0,0.0925,0.153,0.0,0.0763,0.345,110.567
+270,"Your Song - From ""Moulin Rouge"" Soundtrack",Moulin Rouge,Various Artists,2001-01-01,218800,55,0.277,0.331,5,-9.292,1,0.0373,0.515,6.26e-05,0.111,0.256,133.233
+271,Ashamed,Friends,Omar Apollo,2019-04-10,204213,53,0.655,0.451,0,-4.711,1,0.229,0.483,0.0315,0.129,0.587,91.036
+272,El Farsante - Remix,El Farsante (Remix),Ozuna,2018-01-30,258000,74,0.737,0.742,6,-2.875,1,0.0441,0.218,0.0,0.316,0.386,119.966
+273,bad guy (with Justin Bieber),bad guy (with Justin Bieber),Billie Eilish,2019-07-11,194839,72,0.67,0.453,0,-11.265,1,0.295,0.252,0.33,0.117,0.68,135.055
+274,Tempo (feat. Missy Elliott),Cuz I Love You (Deluxe),Lizzo,2019-05-03,175342,42,0.833,0.722,1,-5.563,1,0.136,0.0573,1.14e-05,0.358,0.588,107.019
+275,Jerome,Cuz I Love You (Deluxe),Lizzo,2019-05-03,231570,42,0.674,0.542,8,-6.983,1,0.253,0.0476,0.0,0.0682,0.534,150.979
+276,Juice,Cuz I Love You,Lizzo,2019-04-19,195144,79,0.767,0.889,7,-2.988,1,0.0963,0.00611,0.0,0.402,0.843,119.93
+277,Hold Up,Lemonade,Beyoncé,2016-04-23,221093,74,0.524,0.397,0,-11.936,1,0.405,0.745,0.0,0.521,0.552,80.744
+278,Mount Everest,Mount Everest,Labrinth,2019-06-21,157476,1,0.46,0.426,0,-7.286,0,0.218,0.232,0.0754,0.0847,0.432,88.802
+279,Smoke Again,Acid Rap,Chance the Rapper,2013-04-30,272562,57,0.721,0.48,9,-9.282,0,0.219,0.0996,0.0,0.39,0.508,120.148
+280,Acid Rain,Acid Rap,Chance the Rapper,2013-04-30,216312,64,0.727,0.527,9,-7.111,1,0.252,0.218,0.000228,0.113,0.102,84.471
+281,Beautiful People (feat. Khalid),Beautiful People (feat. Khalid),Ed Sheeran,2019-06-28,197866,80,0.64,0.648,5,-8.113,0,0.187,0.124,0.0,0.0802,0.548,92.977
+282,Follow Your Arrow,Same Trailer Different Park,Kacey Musgraves,2013-01-01,199640,71,0.448,0.649,5,-5.925,1,0.0434,0.418,0.0,0.0976,0.575,195.925
+283,Paradise,Paradise,Bazzi,2019-04-04,169038,1,0.844,0.644,11,-6.273,0,0.0479,0.0828,0.0,0.113,0.591,122.061
+284,You Need To Calm Down,You Need To Calm Down,Taylor Swift,2019-06-14,171386,22,0.768,0.678,2,-5.604,1,0.0505,0.00838,0.0,0.0596,0.706,85.025
+285,Time,Time,Free Nationals,2019-06-12,210279,59,0.46,0.771,9,-7.088,0,0.328,0.518,0.000197,0.0774,0.296,88.83
+286,Truthfully,DNCE,DNCE,2016-11-18,182653,67,0.723,0.643,8,-6.861,1,0.0351,0.32,0.0,0.332,0.548,102.015
+287,Only Human,Happiness Begins,Jonas Brothers,2019-06-07,183000,76,0.795,0.496,0,-5.883,1,0.0722,0.108,0.0,0.0645,0.874,94.01
+288,Sucker,Happiness Begins,Jonas Brothers,2019-06-07,181026,84,0.842,0.734,1,-5.065,0,0.0588,0.0427,0.0,0.106,0.952,137.958
+289,Love Her,Happiness Begins,Jonas Brothers,2019-06-07,193133,62,0.74,0.337,8,-6.039,1,0.0282,0.178,0.0,0.0944,0.56,103.002
+290,Used To Be,Happiness Begins,Jonas Brothers,2019-06-07,184986,53,0.71,0.517,1,-6.85,1,0.0448,0.172,0.0,0.0786,0.176,145.946
+291,Happy When I'm Sad,Happiness Begins,Jonas Brothers,2019-06-07,158466,49,0.782,0.793,7,-7.054,1,0.0399,0.000199,0.000215,0.306,0.906,100.987
+292,Every Single Time,Happiness Begins,Jonas Brothers,2019-06-07,212093,52,0.756,0.685,11,-5.176,0,0.0446,0.135,0.0,0.123,0.91,151.988
+293,Rollercoaster,Happiness Begins,Jonas Brothers,2019-06-07,181813,62,0.697,0.58,11,-7.986,0,0.0451,0.0583,0.0,0.393,0.467,123.977
+294,Hesitate,Happiness Begins,Jonas Brothers,2019-06-07,208840,59,0.622,0.485,2,-7.259,1,0.0322,0.227,0.0,0.0889,0.236,118.051
+295,The Most,SHE IS COMING,Miley Cyrus,2019-05-31,221720,57,0.344,0.615,7,-6.886,1,0.0327,0.455,0.00339,0.122,0.209,98.99
+296,Mother's Daughter,SHE IS COMING,Miley Cyrus,2019-05-31,219080,74,0.681,0.865,1,-4.132,0,0.0594,0.00464,0.00169,0.149,0.528,91.017
+297,D.R.E.A.M. (feat. Ghostface Killah),SHE IS COMING,Miley Cyrus,2019-05-31,168346,59,0.688,0.637,0,-5.127,1,0.259,0.185,1.97e-05,0.0943,0.449,160.026
+298,Unholy,SHE IS COMING,Miley Cyrus,2019-05-31,130186,63,0.824,0.534,4,-4.679,0,0.0363,0.0357,3.62e-06,0.0877,0.206,141.983
+299,Time in a Tree,Time in a Tree,Raleigh Ritchie,2018-08-03,225630,51,0.56,0.476,0,-7.772,0,0.0774,0.482,0.0,0.362,0.379,105.816
+300,Cross Me (feat. Chance the Rapper & PnB Rock),Cross Me (feat. Chance the Rapper & PnB Rock),Ed Sheeran,2019-05-24,206186,69,0.746,0.787,4,-6.373,1,0.12,0.214,0.0,0.0669,0.607,95.005
+301,EARFQUAKE,IGOR,"Tyler, The Creator",2019-05-17,190066,86,0.554,0.498,9,-8.866,1,0.0685,0.23,5.98e-06,0.795,0.413,79.635
+302,SPF,SPF,Magic City Hippies,2019-05-17,243426,0,0.673,0.797,8,-4.676,0,0.0507,0.0551,6.29e-05,0.71,0.926,94.045
+303,GRoCERIES,GRoCERIES,Chance the Rapper,2019-05-17,226845,59,0.906,0.596,0,-5.88,0,0.243,0.0578,0.0,0.109,0.701,144.038
+304,Nightmare,Nightmare,Halsey,2019-05-17,231998,73,0.611,0.622,9,-5.075,0,0.0734,0.0188,0.0,0.359,0.538,146.11
+305,Furthest Thing,Nothing Was The Same (Deluxe),Drake,2013-01-01,267373,0,0.484,0.78,9,-5.264,0,0.135,0.147,0.0,0.057,0.271,137.101
+306,Sucker,Sucker,Jonas Brothers,2019-03-01,181040,11,0.842,0.734,1,-5.065,0,0.0588,0.0427,0.0,0.106,0.952,137.958
+307,Power is Power (feat. The Weeknd & Travis Scott),For The Throne (Music Inspired by the HBO Series Game of Thrones),Game of Thrones,2019-04-26,211266,69,0.507,0.644,4,-7.485,1,0.0641,0.00413,0.0,0.217,0.172,179.913
+308,ME! (feat. Brendon Urie of Panic! At The Disco),ME!,Taylor Swift,2019-04-26,193040,2,0.614,0.839,0,-4.143,1,0.0702,0.0291,0.0,0.112,0.657,182.123
+309,Drugs & The Internet,Drugs & The Internet,Lauv,2019-04-26,178549,0,0.454,0.583,2,-6.596,1,0.133,0.321,1.06e-05,0.332,0.216,89.134
+310,Good As Hell,Good As Hell,Lizzo,2016-03-11,159011,1,0.684,0.905,0,-3.187,0,0.0765,0.285,0.0,0.525,0.492,95.985
+311,Formation,Lemonade,Beyoncé,2016-04-23,206080,45,0.733,0.611,1,-6.859,1,0.456,0.00463,0.0,0.195,0.81,61.145
+312,Truth Hurts,Truth Hurts,Lizzo,2017-09-19,173325,0,0.715,0.624,4,-3.046,0,0.114,0.11,0.0,0.123,0.412,158.087
+313,Borderline,Borderline,Tame Impala,2019-04-12,274293,1,0.598,0.71,0,-6.839,0,0.0272,0.0476,1.77e-05,0.1,0.726,97.976
+314,Outta My Head (with John Mayer),Free Spirit,Khalid,2019-04-05,177066,70,0.729,0.545,0,-7.818,1,0.0316,0.0174,0.000274,0.369,0.514,103.012
+315,Lucky Strike,Bloom,Troye Sivan,2018-08-31,208967,0,0.612,0.694,2,-7.363,1,0.0514,0.579,0.0,0.0914,0.564,103.031
+316,!!!!!!!,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,13578,16,0.0,0.278,1,-21.63,1,0.0,0.768,0.0,0.669,0.0,0.0
+317,listen before i go,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,242652,80,0.319,0.0561,0,-23.023,1,0.045,0.935,0.00384,0.388,0.082,79.764
+318,bad guy,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,194087,88,0.701,0.425,7,-10.965,1,0.375,0.328,0.13,0.1,0.562,135.128
+319,wish you were gay,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,221543,80,0.853,0.351,7,-10.198,1,0.241,0.39,9.38e-06,0.752,0.282,118.028
+320,you should see me in a crown,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,180952,81,0.678,0.533,4,-10.485,1,0.186,0.462,0.219,0.139,0.323,150.455
+321,when the party's over,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,196077,86,0.367,0.111,4,-14.084,1,0.0972,0.978,3.97e-05,0.0897,0.198,82.642
+322,xanny,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,243725,77,0.521,0.125,9,-17.832,1,0.239,0.751,0.00207,0.265,0.0528,111.554
+323,bury a friend,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,193143,80,0.905,0.389,8,-14.505,1,0.332,0.74,0.162,0.106,0.196,120.046
+324,i love you,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,291796,84,0.421,0.131,0,-18.435,1,0.0382,0.952,0.00453,0.109,0.12,137.446
+325,all the good girls go to hell,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,168839,79,0.726,0.444,8,-8.922,0,0.372,0.283,0.143,0.177,0.569,185.044
+326,8,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,173201,73,0.735,0.235,3,-13.239,1,0.315,0.698,0.00604,0.107,0.462,62.446
+327,Welcome To New York,1989,Taylor Swift,2014-10-27,212600,65,0.793,0.634,7,-4.807,1,0.0324,0.038,1.76e-06,0.304,0.615,117.024
+328,Bad,"Love, me",Lennon Stella,2018-11-17,177973,57,0.827,0.613,8,-5.34,1,0.0621,0.366,1.25e-05,0.093,0.747,137.96
+329,BITCH (takes one to know one),BITCH (takes one to know one),Lennon Stella,2019-03-15,183840,52,0.746,0.55,2,-9.68,1,0.0598,0.0311,0.0,0.126,0.522,97.018
+330,Another Night,On And On And Beyond,Mac Miller,2011-03-29,176043,59,0.61,0.576,1,-8.289,1,0.0641,0.608,0.0,0.0716,0.568,80.973
+331,My Bad,My Bad,Khalid,2019-03-07,166101,63,0.645,0.568,5,-9.127,0,0.0823,0.543,0.266,0.257,0.391,84.999
+332,Do I Wanna Know?,AM,Arctic Monkeys,2013-09-09,272394,89,0.548,0.532,5,-7.596,1,0.0323,0.186,0.000263,0.217,0.405,85.03
+333,R U Mine?,AM,Arctic Monkeys,2013-09-09,201726,83,0.288,0.758,6,-5.692,0,0.0371,0.00616,0.0,0.303,0.619,97.094
+334,Grip,Grip,Seeb,2018-12-06,198074,60,0.598,0.904,4,-2.293,1,0.0507,0.331,0.0,0.264,0.503,138.091
+335,I Guess I Just Feel Like,I Guess I Just Feel Like,John Mayer,2019-02-22,286426,6,0.546,0.477,4,-9.051,1,0.0273,0.559,0.0612,0.0911,0.16,160.0
+336,Shake Something (feat. Joey Purp),Shake Something (feat. Joey Purp),Louis The Child,2018-03-08,193512,59,0.895,0.525,10,-7.969,0,0.186,0.0925,0.00552,0.585,0.202,87.999
+337,44 More,Bobby Tarantino II,Logic,2018-03-09,188600,71,0.824,0.584,10,-7.098,0,0.221,0.0718,0.0,0.106,0.219,139.965
+338,Electric (feat. Khalid),Electric (feat. Khalid),Alina Baraz,2017-01-20,246327,67,0.599,0.396,10,-10.489,0,0.0392,0.738,2.19e-05,0.102,0.134,111.072
+339,Keanu Reeves,Keanu Reeves,Logic,2019-01-18,225986,0,0.71,0.888,2,-6.457,1,0.235,0.0591,0.0,0.134,0.816,170.193
+340,all my friends,i am > i was,21 Savage,2018-12-21,211785,68,0.713,0.62,0,-4.513,1,0.0422,0.171,1.16e-06,0.118,0.206,130.09
+341,11 Minutes (with Halsey feat. Travis Barker),11 Minutes (with Halsey feat. Travis Barker),YUNGBLUD,2019-02-14,239507,71,0.464,0.852,11,-3.804,1,0.067,0.0116,0.0,0.108,0.233,160.075
+342,bad idea,"thank u, next",Ariana Grande,2019-02-08,267106,72,0.847,0.579,1,-5.314,1,0.0719,0.0268,0.0545,0.102,0.569,137.998
+343,YOUTH,Blue Neighbourhood (Deluxe),Troye Sivan,2015-12-04,185194,0,0.624,0.757,7,-4.461,1,0.0422,0.0521,0.0,0.0766,0.588,91.513
+344,i'm so tired...,i'm so tired...,Lauv,2019-01-24,162582,4,0.599,0.733,11,-7.058,1,0.203,0.176,0.0,0.242,0.534,102.211
+345,Seasons (feat. Khalid),East Atlanta Love Letter,6LACK,2018-09-14,250001,68,0.6,0.319,0,-10.272,1,0.294,0.692,0.00958,0.137,0.507,141.96
+346,Nikes,Blonde,Frank Ocean,2016-08-20,314075,75,0.543,0.394,8,-9.637,1,0.0864,0.695,0.000239,0.108,0.118,137.811
+347,Honesty,Honesty,Pink Sweat$,2018-07-12,191000,0,0.616,0.204,6,-11.421,0,0.0331,0.919,0.0,0.106,0.419,79.826
+348,Call It What You Want,Call It What You Want,Taylor Swift,2017-11-03,203506,0,0.599,0.508,9,-9.894,1,0.105,0.193,0.000177,0.329,0.269,163.957
+349,Why,Shawn Mendes,Shawn Mendes,2018-05-25,238173,0,0.693,0.416,0,-9.231,0,0.0494,0.649,1.62e-06,0.0631,0.235,127.027
+350,I Found You / Nilda’s Story (with Calvin Harris & Miguel),I Found You / Nilda’s Story (with Calvin Harris & Miguel),benny blanco,2019-01-04,191465,55,0.337,0.241,6,-9.849,1,0.0527,0.94,0.0112,0.131,0.181,81.916
+351,7 rings,7 rings,Ariana Grande,2019-01-18,178640,4,0.725,0.321,1,-10.744,0,0.323,0.578,0.0,0.0884,0.319,70.142
+352,Without Me (with Juice WRLD),Without Me (with Juice WRLD),Halsey,2019-01-09,228816,72,0.744,0.514,6,-6.103,1,0.0746,0.355,0.0,0.184,0.449,136.013
+353,I Will Survive - Single Version,20th Century Masters: The Millennium Collection: Best Of Gloria Gaynor,Gloria Gaynor,2000-01-01,198066,72,0.777,0.725,0,-8.681,1,0.05,0.0131,0.00805,0.246,0.529,116.669
+354,Wow.,Wow.,Post Malone,2018-12-24,149520,4,0.833,0.539,11,-7.399,0,0.178,0.163,2.1e-06,0.101,0.385,99.947
+355,Me Rehúso,Me Rehúso,Danny Ocean,2016-09-16,205714,82,0.744,0.804,1,-6.327,1,0.0677,0.0231,0.0,0.0494,0.426,104.823
+356,Storms,Storms,Mr. Carter Davis,2018-04-13,205000,47,0.564,0.457,3,-10.386,1,0.036,0.214,0.0359,0.144,0.355,124.984
+357,Rich White Girls,Mansionz,mansionz,2017-03-24,209563,60,0.622,0.513,2,-8.045,1,0.355,0.306,0.0,0.413,0.691,132.613
+358,Gorgeous,Mansionz,mansionz,2017-03-24,148493,71,0.833,0.545,2,-4.004,0,0.462,0.352,0.0,0.0915,0.541,77.035
+359,Think About You,Think About You,Clinton Sparks,2018-09-07,224000,46,0.593,0.592,10,-5.798,0,0.078,0.311,0.000319,0.108,0.325,150.097
+360,"thank u, next","thank u, next",Ariana Grande,2018-11-03,207333,26,0.724,0.647,1,-5.642,1,0.0658,0.28,0.0,0.102,0.435,106.96
+361,The Greatest Show,The Greatest Show,Panic! At The Disco,2018-11-02,174306,68,0.546,0.839,6,-5.365,0,0.0784,0.00546,0.0,0.382,0.491,77.009
+362,II. Worldstar,Because The Internet,Childish Gambino,2013-01-01,244653,0,0.695,0.628,5,-8.627,1,0.145,0.337,0.219,0.143,0.21,119.949
+363,You See Me,Camp,Childish Gambino,2011-01-01,195373,0,0.677,0.806,2,-6.393,1,0.507,0.051,0.0,0.116,0.657,69.765
+364,Better,Suncity,Khalid,2018-10-19,229320,63,0.695,0.586,0,-10.315,0,0.0658,0.102,0.317,0.113,0.112,98.035
+365,Saturday Nights,Suncity,Khalid,2018-10-19,209546,67,0.54,0.439,10,-8.591,1,0.115,0.635,1.93e-05,0.0993,0.371,167.908
+366,Sunflower - Spider-Man: Into the Spider-Verse,Sunflower (Spider-Man: Into the Spider-Verse),Post Malone,2018-10-18,158053,0,0.753,0.498,2,-5.61,1,0.0504,0.551,0.0,0.0706,0.927,89.95
+367,MIA (feat. Drake),MIA (feat. Drake),Bad Bunny,2018-10-11,210367,83,0.817,0.539,6,-6.349,0,0.0621,0.0141,0.000496,0.099,0.158,97.062
+368,Run,Malibu Nights,LANY,2018-10-05,228192,57,0.705,0.382,8,-9.819,0,0.0694,0.123,0.0,0.102,0.453,109.977
+369,Valentine's Day,Malibu Nights,LANY,2018-10-05,217949,61,0.545,0.498,8,-8.764,1,0.0335,0.13,0.0,0.104,0.063,148.055
+370,If You See Her,Malibu Nights,LANY,2018-10-05,182900,62,0.635,0.679,1,-7.374,1,0.0861,0.0375,0.0,0.0954,0.239,117.867
+371,I Don't Wanna Love You Anymore,Malibu Nights,LANY,2018-10-05,201197,67,0.702,0.623,0,-8.36,1,0.0417,0.322,0.0,0.0858,0.503,104.974
+372,Let Me Know,Malibu Nights,LANY,2018-10-05,276197,61,0.696,0.391,11,-8.306,0,0.0825,0.264,2.98e-06,0.127,0.65,94.971
+373,Tints (feat. Kendrick Lamar),Tints (feat. Kendrick Lamar),Anderson .Paak,2018-10-04,268400,57,0.805,0.833,1,-6.73,0,0.12,0.0859,0.0,0.0578,0.703,109.076
+374,Polaroid,Polaroid,Jonas Blue,2018-10-05,193377,65,0.652,0.897,7,-4.481,0,0.036,0.293,0.0,0.0722,0.475,114.033
+375,Without Me,Without Me,Halsey,2018-10-04,201660,83,0.752,0.488,6,-7.05,1,0.0705,0.297,9.11e-06,0.0936,0.533,136.041
+376,Señorita,Justified,Justin Timberlake,2002-11-04,294866,71,0.841,0.63,1,-5.356,1,0.0443,0.0725,0.0,0.0742,0.876,97.964
+377,TKO,The 20/20 Experience - The Complete Experience,Justin Timberlake,2013-09-27,424160,0,0.618,0.667,3,-6.733,0,0.232,0.00591,6.13e-06,0.539,0.542,137.842
+378,Cabaret (feat. Drake),The 20/20 Experience - The Complete Experience,Justin Timberlake,2013-09-27,272746,0,0.709,0.733,8,-5.116,1,0.0869,0.107,5.12e-06,0.239,0.333,120.168
+379,Mirrors,The 20/20 Experience - The Complete Experience,Justin Timberlake,2013-09-27,484146,0,0.574,0.512,5,-6.664,0,0.0503,0.234,0.0,0.0946,0.512,76.899
+380,Tunnel Vision,The 20/20 Experience - The Complete Experience,Justin Timberlake,2013-09-27,406640,0,0.572,0.771,4,-5.54,0,0.0611,0.275,0.0,0.473,0.573,141.88
+381,Suit & Tie (feat. Jay-Z),The 20/20 Experience - The Complete Experience,Justin Timberlake,2013-09-27,326280,0,0.795,0.596,11,-3.799,0,0.219,0.103,0.0,0.164,0.357,101.985
+382,Therapy,Straight To DVD,All Time Low,2010-05-25,361266,0,0.459,0.648,8,-6.405,1,0.0455,0.783,0.0,0.944,0.547,78.969
+383,Lost In Japan - Remix,Lost In Japan (Remix),Shawn Mendes,2018-09-27,201253,65,0.706,0.855,10,-5.377,1,0.215,0.0911,0.0,0.347,0.293,107.184
+384,Kids In The Dark,Future Hearts,All Time Low,2015-04-07,216689,0,0.519,0.981,1,-3.473,0,0.0726,0.00136,0.000155,0.0903,0.773,130.039
+385,The Irony of Choking on a Lifesaver,Don't Panic: It's Longer Now!,All Time Low,2013-09-30,216685,0,0.429,0.987,6,-3.233,1,0.0855,0.00226,0.0,0.311,0.62,178.174
+386,Backseat Serenade,Don't Panic: It's Longer Now!,All Time Low,2013-09-30,200510,0,0.508,0.964,6,-3.712,1,0.0453,5.87e-05,3.29e-05,0.172,0.545,140.03
+387,If These Sheets Were States,Don't Panic: It's Longer Now!,All Time Low,2013-09-30,199404,0,0.424,0.982,7,-3.516,1,0.0717,9.76e-05,0.0,0.276,0.596,175.15
+388,Therapy,Nothing Personal (Deluxe Version),All Time Low,2009-07-07,224200,0,0.312,0.713,9,-4.489,1,0.0327,0.0258,0.0,0.135,0.196,169.871
+389,Lost In Stereo,Nothing Personal (Deluxe Version),All Time Low,2009-07-07,227466,0,0.471,0.963,10,-3.795,1,0.0572,0.00315,0.0,0.244,0.581,150.033
+390,Damned If I Do Ya (Damned If I Don't),Nothing Personal (Deluxe Version),All Time Low,2009-07-07,187000,0,0.554,0.902,4,-4.018,1,0.0569,0.00635,0.0,0.328,0.657,126.022
+391,Break Your Little Heart,Nothing Personal (Deluxe Version),All Time Low,2009-07-07,171706,0,0.418,0.951,1,-3.006,1,0.0497,0.00287,0.0,0.335,0.643,147.942
+392,Weightless,Nothing Personal (Deluxe Version),All Time Low,2009-07-07,198000,0,0.497,0.923,2,-4.512,1,0.137,0.00282,0.0,0.158,0.667,181.075
+393,Remembering Sunday,"So Wrong, It's Right",All Time Low,2007-09-25,256733,0,0.449,0.602,6,-4.8,0,0.0264,0.149,0.0,0.141,0.32,170.04
+394,Six Feet Under The Stars,"So Wrong, It's Right",All Time Low,2007-09-25,216546,0,0.488,0.967,3,-2.701,1,0.0755,0.0147,0.0,0.109,0.341,130.926
+395,Jasey Rae,Put Up Or Shut Up,All Time Low,2006-07-25,218293,0,0.486,0.901,2,-6.943,1,0.0391,4.77e-05,0.0,0.0828,0.348,96.03
+396,Not Ready to Make Nice,Taking The Long Way,The Chicks,2006-05-23,237296,65,0.425,0.554,6,-4.145,1,0.0298,0.134,8.56e-05,0.0963,0.288,83.917
+397,Wide Open Spaces,Wide Open Spaces,The Chicks,1998-01-27,223832,71,0.563,0.544,4,-6.102,1,0.0306,0.577,0.0,0.128,0.602,179.351
+398,Landslide,Home,The Chicks,2002-08-27,230549,71,0.571,0.438,2,-7.007,1,0.0279,0.534,1.56e-05,0.187,0.444,145.948
+399,Cowboy Take Me Away,Fly,The Chicks,1999-08-27,287266,73,0.467,0.622,6,-7.255,1,0.031,0.365,0.00527,0.0982,0.455,164.418
+400,SLOW DANCING IN THE DARK,SLOW DANCING IN THE DARK,Joji,2018-09-12,209273,0,0.515,0.479,3,-7.458,1,0.0261,0.544,0.00598,0.191,0.284,88.964
+401,If You See Her,If You See Her,LANY,2018-10-01,182900,0,0.635,0.679,1,-7.374,1,0.0861,0.0375,0.0,0.0954,0.239,117.867
+402,My Favorite Part,The Divine Feminine,Mac Miller,2016-09-16,216000,78,0.861,0.33,6,-7.194,1,0.0526,0.627,1.93e-06,0.14,0.718,95.016
+403,Dang! (feat. Anderson .Paak),The Divine Feminine,Mac Miller,2016-09-16,305350,78,0.836,0.67,5,-6.907,0,0.23,0.00826,0.000355,0.0837,0.556,107.018
+404,There's No Way (feat. Julia Michaels),There's No Way (feat. Julia Michaels),Lauv,2018-09-27,174860,2,0.755,0.625,2,-7.114,1,0.0896,0.49,0.0,0.157,0.374,147.02
+405,Another Me,Symphony Soldier,The Cab,2011-01-01,203266,36,0.403,0.881,0,-4.427,1,0.0464,0.00245,0.0,0.215,0.464,173.909
+406,Intoxicated,Symphony Soldier,The Cab,2011-01-01,248080,49,0.579,0.889,6,-4.078,1,0.0796,0.197,0.0,0.131,0.556,125.948
+407,Animal,Symphony Soldier,The Cab,2011-01-01,228800,39,0.424,0.883,1,-4.091,0,0.23,0.00625,0.0,0.0803,0.704,178.07
+408,Temporary Bliss,Symphony Soldier,The Cab,2011-01-01,224226,58,0.455,0.908,5,-4.414,0,0.101,0.00234,0.0,0.0772,0.697,154.113
+409,What a Feeling,Made In The A.M. (Deluxe Edition),One Direction,2015-11-13,200533,70,0.678,0.869,0,-4.345,0,0.0461,0.149,0.0,0.0593,0.882,123.964
+410,broken,finding it hard to smile,lovelytheband,2018-08-03,204878,76,0.666,0.728,7,-5.808,1,0.0419,0.00175,4.26e-06,0.0429,0.51,122.996
+411,Better,Better,Khalid,2018-09-14,229412,76,0.442,0.585,0,-10.332,0,0.0964,0.0984,0.391,0.14,0.116,97.565
+412,Bad,Bad,Lennon Stella,2018-09-14,177973,0,0.827,0.613,8,-5.34,1,0.0621,0.366,1.25e-05,0.093,0.747,137.96
+413,Are You Gonna Go My Way,Are You Gonna Go My Way,Lenny Kravitz,1993-03-09,211933,77,0.619,0.67,11,-10.322,0,0.0353,0.00165,0.0109,0.331,0.777,129.269
+414,Paper Doll,Paradise Valley,John Mayer,2013-08-20,257386,61,0.658,0.475,7,-11.703,1,0.0292,0.521,0.0067,0.176,0.685,153.851
+415,Nina Cried Power (feat. Mavis Staples),Nina Cried Power - EP,Hozier,2018-09-06,225213,44,0.29,0.889,1,-2.611,1,0.159,0.00949,0.0,0.0821,0.651,98.835
+416,Love No More,Love No More,Loud Luxury,2018-08-31,168635,44,0.765,0.672,0,-6.251,1,0.0538,0.0205,5.92e-05,0.258,0.222,121.006
+417,the 1,the 1,blackbear,2018-08-23,206875,1,0.571,0.531,4,-6.137,0,0.0385,0.0583,0.0,0.122,0.439,108.075
+418,Be Alright,Be Alright,Dean Lewis,2018-06-29,196373,84,0.553,0.586,11,-6.319,1,0.0362,0.697,0.0,0.0813,0.443,126.684
+419,Reforget,I met you when I was 18. (the playlist),Lauv,2018-05-31,231676,60,0.44,0.469,5,-8.338,0,0.112,0.449,0.0,0.169,0.225,169.755
+420,Close Your Eyes (And Count To Fuck),Run The Jewels 2,Run The Jewels,2014-10-24,234160,0,0.678,0.662,1,-6.473,1,0.3,0.0123,0.0,0.133,0.498,80.318
+421,"Lie, Cheat, Steal",Run The Jewels 2,Run The Jewels,2014-10-24,208466,0,0.542,0.744,6,-7.1,1,0.376,0.0469,0.0,0.194,0.379,82.743
+422,Serious,Serious,Russ,2018-08-30,188946,45,0.69,0.635,1,-7.624,1,0.34,0.132,0.0,0.362,0.569,144.065
+423,Superhero,Superhero,Lauv,2018-08-30,179997,66,0.681,0.34,7,-8.617,1,0.0339,0.82,0.0,0.285,0.417,129.98
+424,Hush,Hush,Magic City Hippies,2016-04-08,319124,0,0.622,0.752,4,-6.964,0,0.124,0.189,0.0124,0.0443,0.602,126.047
+425,Gunslingers,Gunslingers,Magic City Hippies,2018-08-10,197200,0,0.695,0.534,4,-7.954,0,0.0442,0.229,0.152,0.34,0.813,139.969
+426,Alone,hopeless fountain kingdom (Deluxe),Halsey,2017-06-02,205660,60,0.602,0.724,2,-3.469,0,0.0352,0.0184,0.0,0.606,0.451,100.064
+427,Eyes Closed,hopeless fountain kingdom (Deluxe),Halsey,2017-06-02,202438,63,0.581,0.684,1,-4.962,0,0.0429,0.0179,1.93e-05,0.0849,0.0397,129.966
+428,Sorry,hopeless fountain kingdom (Deluxe),Halsey,2017-06-02,220540,78,0.513,0.25,5,-9.376,0,0.0367,0.913,0.0,0.117,0.351,74.103
+429,Strange Love,BADLANDS (Deluxe),Halsey,2015-08-28,247282,58,0.605,0.849,11,-4.761,1,0.043,0.00212,0.000372,0.192,0.599,89.993
+430,Colors,BADLANDS (Deluxe),Halsey,2015-08-28,249499,62,0.512,0.812,1,-4.809,1,0.0617,0.0534,0.0,0.092,0.521,100.02
+431,New Americana,BADLANDS (Deluxe),Halsey,2015-08-28,183808,61,0.339,0.707,0,-5.121,0,0.0428,0.0113,0.0,0.337,0.359,173.993
+432,All My Friends (feat. Tinashe & Chance the Rapper),All My Friends (feat. Tinashe & Chance the Rapper),Snakehips,2015-10-21,229746,77,0.681,0.521,0,-5.849,1,0.141,0.12,8.41e-05,0.108,0.181,94.997
+433,Venom - Music From The Motion Picture,Kamikaze,Eminem,2018-08-31,269554,81,0.749,0.794,0,-5.063,1,0.064,0.0193,0.0,0.543,0.46,135.959
+434,The Ringer,Kamikaze,Eminem,2018-08-31,337941,73,0.939,0.551,1,-9.126,1,0.291,0.0311,0.0,0.192,0.42,118.552
+435,SICKO MODE,ASTROWORLD,Travis Scott,2018-08-03,312820,86,0.834,0.73,8,-3.714,1,0.222,0.00513,0.0,0.124,0.446,155.008
+436,All Girls Are The Same,Goodbye & Good Riddance,Juice WRLD,2018-05-23,165819,0,0.671,0.529,0,-7.226,1,0.307,0.0769,0.000335,0.0856,0.203,161.989
+437,An Honest Mistake,The Bravery,The Bravery,2005-03-14,219706,62,0.46,0.889,2,-4.281,0,0.0294,3.21e-06,0.645,0.121,0.639,140.038
+438,Believe,The Sun And The Moon,The Bravery,2007-01-01,226346,64,0.385,0.949,8,-3.369,1,0.0459,0.00501,2.13e-06,0.113,0.517,166.137
+439,I Don't Wanna Love You Anymore,Thru These Tears / I Don’t Wanna Love You Anymore,LANY,2018-08-22,201177,0,0.704,0.622,0,-8.29,1,0.0404,0.338,0.0,0.0915,0.5,104.984
+440,Lonely (feat. MAX),Lonely (feat. MAX),Matoma,2018-03-22,167438,39,0.588,0.834,11,-4.558,1,0.0559,0.148,0.0,0.237,0.659,167.961
+441,Purple Lamborghini (with Rick Ross),Purple Lamborghini (with Rick Ross),Skrillex,2016-07-22,215510,73,0.457,0.899,10,-2.591,0,0.132,0.0019,0.0,0.831,0.298,147.268
+442,Body - Mike Hawkins Extended Remix,Body,Loud Luxury,2018-07-20,280920,9,0.655,0.869,5,-4.817,0,0.0669,0.000721,0.502,0.0581,0.547,124.993
+443,Ladders,Swimming,Mac Miller,2018-08-03,287040,77,0.802,0.463,8,-8.379,1,0.162,0.236,0.00531,0.105,0.291,103.961
+444,In Love With a Girl,Gavin DeGraw,Gavin DeGraw,2008-05-06,206000,56,0.438,0.906,3,-4.8,1,0.0438,0.0191,0.0,0.373,0.684,161.905
+445,Tennessee Whiskey,Traveller,Chris Stapleton,2015-05-04,293293,83,0.392,0.37,9,-10.888,1,0.0298,0.205,0.0096,0.0821,0.512,48.718
+446,Body,Body,Loud Luxury,2017-10-27,163216,0,0.752,0.764,1,-4.399,1,0.038,0.0476,9.44e-05,0.0543,0.582,121.958
+447,Lucid Dreams,Goodbye & Good Riddance,Juice WRLD,2018-05-23,239835,3,0.511,0.566,6,-7.23,0,0.2,0.349,0.0,0.34,0.218,83.903
+448,Where Do Broken Hearts Go,FOUR (Deluxe),One Direction,2014-11-17,229040,71,0.565,0.862,4,-3.715,1,0.0326,0.0014,0.0,0.105,0.647,122.994
+449,Half a Heart,Midnight Memories (Deluxe),One Direction,2013-11-25,188546,72,0.515,0.714,0,-4.516,1,0.0348,0.286,0.0,0.118,0.495,155.954
+450,Little White Lies,Midnight Memories (Deluxe),One Direction,2013-11-25,197920,65,0.591,0.899,0,-3.768,1,0.0536,0.00726,0.0,0.393,0.446,139.547
+451,Better Than Words,Midnight Memories (Deluxe),One Direction,2013-11-25,208666,65,0.627,0.839,11,-5.589,0,0.0508,0.114,0.0,0.534,0.79,157.993
+452,Strong,Midnight Memories (Deluxe),One Direction,2013-11-25,184373,73,0.741,0.663,0,-7.308,1,0.0434,0.0608,0.0,0.0931,0.338,115.013
+453,Rock Me,Take Me Home: Yearbook Edition,One Direction,2012-11-09,200040,0,0.503,0.917,8,-3.595,1,0.055,0.0354,0.0,0.28,0.79,168.018
+454,She's Not Afraid,Take Me Home: Yearbook Edition,One Direction,2012-11-09,190720,0,0.486,0.918,8,-4.002,1,0.126,0.00908,0.0,0.171,0.849,167.635
+455,I'm a Mess,Expectations,Bebe Rexha,2018-06-22,195519,79,0.63,0.694,11,-6.257,0,0.0253,0.00281,0.0,0.0719,0.216,97.005
+456,Summertime Magic,Summer Pack,Childish Gambino,2018-07-11,213600,69,0.76,0.579,0,-7.374,1,0.0567,0.0127,0.00344,0.106,0.129,100.011
+457,God is a woman,God is a woman,Ariana Grande,2018-07-13,197573,0,0.604,0.673,1,-5.979,1,0.0545,0.0268,3.32e-05,0.187,0.287,144.971
+458,Eastside (with Halsey & Khalid),Eastside (with Halsey & Khalid),benny blanco,2018-07-12,173799,80,0.56,0.68,6,-7.648,0,0.321,0.555,0.0,0.116,0.319,89.391
+459,Immortals,American Beauty/American Psycho,Fall Out Boy,2015-01-20,189386,78,0.616,0.868,2,-3.606,1,0.0699,0.00131,1.54e-06,0.671,0.475,108.016
+460,Sophomore Slump Or Comeback Of The Year,From Under The Cork Tree,Fall Out Boy,2005-05-03,203760,56,0.572,0.907,11,-3.387,1,0.0497,0.00637,0.0,0.231,0.557,133.026
+461,I've Got A Dark Alley And A Bad Idea That Says You Should Shut Your Mouth (Summer Song),From Under The Cork Tree,Fall Out Boy,2005-05-03,190520,52,0.46,0.933,0,-3.766,1,0.0516,0.000811,0.0,0.158,0.523,154.165
+462,"Champagne For My Real Friends, Real Pain For My Sham Friends",From Under The Cork Tree,Fall Out Boy,2005-05-03,203813,52,0.445,0.964,0,-3.278,1,0.0803,0.000553,0.0,0.696,0.511,160.153
+463,The Phoenix,Save Rock And Roll,Fall Out Boy,2013-01-01,244960,63,0.562,0.964,4,-2.991,0,0.072,0.000539,1.57e-06,0.579,0.41,138.063
+464,you should see me in a crown,you should see me in a crown,Billie Eilish,2018-07-18,180566,1,0.697,0.552,1,-10.271,0,0.196,0.479,0.127,0.147,0.278,75.235
+465,Moments,Trip,Jhené Aiko,2017-09-22,178920,61,0.478,0.643,1,-7.62,0,0.215,0.376,1.25e-05,0.179,0.239,117.299
+466,Heartbeats,Veneer,José González,2006-01-01,161680,66,0.589,0.177,3,-14.891,1,0.0325,0.977,0.714,0.0958,0.311,88.409
+467,GLOWED UP,99.9%,KAYTRANADA,2016-05-06,298026,0,0.681,0.621,1,-10.024,1,0.34,0.036,0.00555,0.138,0.428,135.538
+468,Bubblin,Bubblin,Anderson .Paak,2018-05-17,209093,63,0.568,0.873,1,-5.22,1,0.265,0.0731,0.0,0.367,0.547,106.783
+469,Jackie Chan,Jackie Chan,Tiësto,2018-05-18,215759,77,0.747,0.834,3,-2.867,0,0.045,0.374,0.0,0.0586,0.687,128.005
+470,Dress,reputation,Taylor Swift,2017-11-10,230373,75,0.719,0.469,0,-8.792,1,0.0533,0.0329,0.0,0.169,0.0851,120.085
+471,Dancing With Our Hands Tied,reputation,Taylor Swift,2017-11-10,211506,73,0.624,0.691,0,-6.686,0,0.196,0.0604,1.1e-05,0.138,0.284,160.024
+472,Getaway Car,reputation,Taylor Swift,2017-11-10,233626,81,0.562,0.689,2,-6.745,1,0.127,0.00465,2.23e-06,0.0888,0.351,172.054
+473,Delicate,reputation,Taylor Swift,2017-11-10,232253,81,0.75,0.404,9,-10.178,0,0.0682,0.216,0.000357,0.0911,0.0499,95.045
+474,In My Feelings,Scorpion,Drake,2018-06-29,217933,0,0.735,0.482,8,-9.445,1,0.139,0.00623,0.0144,0.448,0.315,181.995
+475,God's Plan,Scorpion,Drake,2018-06-29,198973,0,0.754,0.449,7,-9.212,1,0.108,0.0329,7.84e-05,0.55,0.35,77.167
+476,Nonstop,Scorpion,Drake,2018-06-29,238613,0,0.909,0.405,6,-8.133,0,0.14,0.0306,0.00698,0.105,0.455,154.984
+477,I Wish You Would,1989 (Deluxe Edition),Taylor Swift,2014-10-27,207440,62,0.653,0.893,0,-5.966,1,0.0538,0.0158,4.95e-05,0.102,0.513,118.035
+478,Son's Gonna Rise (feat. Carlos Santana),The Clarence Greenwood Recordings,Citizen Cope,2004-01-01,244120,54,0.642,0.769,7,-3.791,1,0.0406,0.193,0.0,0.0819,0.541,79.47
+479,Youngblood,Youngblood,5 Seconds of Summer,2018-04-12,203417,74,0.596,0.854,7,-5.114,0,0.463,0.0169,0.0,0.124,0.152,120.274
+480,Empty Apartment,Ocean Avenue,Yellowcard,2003-01-01,216693,52,0.355,0.666,0,-6.263,1,0.0364,9.21e-05,0.0,0.116,0.268,183.896
+481,Sit Next to Me,Sit Next to Me,Foster The People,2017-07-13,243146,0,0.638,0.738,6,-4.976,0,0.0292,0.117,0.000384,0.689,0.657,97.021
+482,Finest Hour (feat. Abir),Finest Hour (feat. Abir),Cash Cash,2018-04-12,215781,59,0.656,0.729,5,-4.223,0,0.0765,0.0789,0.0,0.133,0.438,95.974
+483,X,X,Nicky Jam,2018-03-02,173627,5,0.595,0.773,9,-4.736,0,0.0549,0.0364,0.00108,0.334,0.711,180.073
+484,I Like Me Better,I met you when I was 18. (the playlist),Lauv,2018-05-31,197436,87,0.752,0.505,9,-7.621,1,0.253,0.535,2.55e-06,0.104,0.419,91.97
+485,Chasing Fire,I met you when I was 18. (the playlist),Lauv,2018-05-31,205267,65,0.709,0.562,5,-4.864,1,0.0724,0.0449,0.0,0.217,0.386,125.965
+486,Getting Over You,I met you when I was 18. (the playlist),Lauv,2018-05-31,255885,62,0.604,0.507,0,-7.928,1,0.0382,0.273,2.27e-06,0.0943,0.114,91.984
+487,Bracelet,I met you when I was 18. (the playlist),Lauv,2018-05-31,262103,57,0.652,0.737,7,-5.046,1,0.035,0.195,0.0,0.224,0.274,114.007
+488,I'm Upset,I'm Upset,Drake,2018-05-26,214139,0,0.899,0.592,11,-7.901,0,0.333,0.263,0.0,0.0831,0.504,149.953
+489,Nervous,Shawn Mendes,Shawn Mendes,2018-05-25,164146,0,0.841,0.622,0,-6.763,1,0.0756,0.041,0.0,0.126,0.738,121.988
+490,In My Blood,Shawn Mendes,Shawn Mendes,2018-05-25,211360,0,0.622,0.709,5,-7.32,1,0.0669,0.0582,0.0,0.126,0.488,140.018
+491,Where Were You In The Morning?,Shawn Mendes,Shawn Mendes,2018-05-25,200600,0,0.709,0.516,7,-7.468,1,0.0615,0.557,0.0,0.0992,0.465,87.992
+492,Like To Be You feat. Julia Michaels,Shawn Mendes,Shawn Mendes,2018-05-25,159400,0,0.736,0.45,2,-9.406,1,0.228,0.809,0.0,0.108,0.663,153.888
+493,Lost In Japan,Shawn Mendes,Shawn Mendes,2018-05-25,201200,0,0.736,0.738,0,-6.782,0,0.358,0.261,0.0,0.107,0.404,105.008
+494,Because I Had You,Shawn Mendes,Shawn Mendes,2018-05-25,142480,0,0.879,0.338,7,-9.753,1,0.106,0.32,0.0,0.312,0.69,102.1
+495,Gasolina,Barrio Fino (Bonus Track Version),Daddy Yankee,2004-07-13,192600,21,0.857,0.801,0,-6.499,1,0.0618,0.332,1.2e-06,0.0789,0.753,96.009
+496,Speechless,Speechless,Dan + Shay,2018-05-18,212745,64,0.631,0.44,1,-5.948,1,0.028,0.328,0.0,0.239,0.418,136.033
+497,1985,A Hangover You Don't Deserve,Bowling For Soup,2004-09-11,193000,60,0.607,0.878,4,-4.422,1,0.0665,0.000246,0.0,0.337,0.853,119.955
+498,Misery Business,Riot!,Paramore,2007-06-11,211520,80,0.517,0.906,1,-3.677,1,0.0735,0.00272,9.26e-06,0.113,0.731,172.977
+499,Beat It,Michael Jackson's This Is It,Michael Jackson,2009-01-01,257906,59,0.782,0.866,3,-3.763,0,0.0489,0.0505,1.39e-05,0.218,0.896,138.859
