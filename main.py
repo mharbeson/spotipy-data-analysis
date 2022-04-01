@@ -206,7 +206,7 @@ def main():
         if file_exists == True:
             if username == 'complete':
                 processCSV(f'data/spotipy-{username}.csv')
-            file = input('Spotify CSV exists, would you like to process? (Y/N)\n(Y): Yes\n(N): No\nSelection: ').lower()
+            file = input('Spotify CSV exists, would you like to process existing data? (Y/N)\n(Y): Yes\n(N): No\nSelection: ').lower()
             if file == 'y':
                 pass
             elif file == 'n':
